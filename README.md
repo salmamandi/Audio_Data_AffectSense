@@ -1,6 +1,6 @@
 AffectSense is an android app that is used to collect emotion self-report labels and their associated voice clip data. The app consists of 2 modules- a self-report collection module and a voice clip collection module. This app runs in the background and sends a notification periodically if the phone is unlocked. The user clicks on the notification to record their emotion at that moment, and then immediatly, it records the voice clip. In voice clip collection module, We provide 2 modes for recording the voice: (1) a English text is given based on the emotion label the user provides and  instruted to record their voice while reading the text loudly, (2) user can record the voice by saying anything that comes in mind based on his emotional condition. User can select one of the options to record voice clip according to their conveninence. The module has a start and stop recording button to turn on and off the voice recording, respectively. Audio files are saved as .3gp format. Following are some details of different files in the app. <br/>
 <br/>
-*SendNotification.java sets a alarm for every 15 minutes to check whether 2 hours is elapsed or not from the last self-report.<br/>
-*NotificationService.java check whether phone is locked or not at 2 hours interval. It probes a notification if phone is unlocked.<br/>
-*AudioRecorder.java allow to record voice clip.<br/>
-*UploadService.class upload the data in server.
+* SendNotification.java sets a alarm for every 15 minutes to check whether 2 hours is elapsed or not from the last self-report.<br/>
+* NotificationService.java check whether phone is locked or not at 2 hours interval. It probes a notification if phone is unlocked.<br/>
+* AudioRecorder.java allow to record voice clip.<br/>
+* UploadService.class upload the data in server.
