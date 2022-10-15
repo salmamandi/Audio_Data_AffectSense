@@ -1,0 +1,618 @@
+09-17 11:47:13.746 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@c9ff5d7, flags=0, startId=593
+09-17 11:47:13.780 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_component , value = disable
+09-17 11:47:13.780 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_lock , value = 0
+09-17 11:47:13.784 17950-17950/research.sg.edu.edapp I/System.out: [Current_app]:research.sg.edu.edapp
+09-17 11:47:13.784 17950-17950/research.sg.edu.edapp I/System.out: Last App : com.instagram.android && Current App : research.sg.edu.edapp
+09-17 11:47:13.785 17950-17950/research.sg.edu.edapp I/System.out: [MasterService]User yet to record emotion, Event-based ESM not Fired...
+09-17 11:47:13.791 17950-17950/research.sg.edu.edapp I/System.out: Upload Data... Time Left : -7651703.0
+09-17 11:47:13.826 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@89f0156 startId=593 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 11:47:18.829 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@c9ff5d7, flags=0, startId=594
+09-17 11:47:18.870 17950-17950/research.sg.edu.edapp I/System.out: [MasterService]: AppLoggingService is running
+09-17 11:47:18.889 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_component , value = disable
+09-17 11:47:18.889 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_lock , value = 0
+09-17 11:47:18.891 17950-17950/research.sg.edu.edapp I/System.out: Last App : com.instagram.android && Current App : research.sg.edu.edapp
+09-17 11:47:18.892 17950-17950/research.sg.edu.edapp I/System.out: [MasterService]User yet to record emotion, Event-based ESM not Fired...
+09-17 11:47:18.901 17950-17950/research.sg.edu.edapp I/System.out: Upload Data... Time Left : -7646619.0
+09-17 11:47:18.915 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@89f0156 startId=594 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 11:47:18.915 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.AppLoggingService@6a1dce2, flags=0, startId=313
+09-17 11:47:18.916 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_component , value = disable
+09-17 11:47:18.916 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_lock , value = 0
+09-17 11:47:18.918 17950-17950/research.sg.edu.edapp I/System.out: Current_app:research.sg.edu.edapp,Last App:research.sg.edu.edapp
+09-17 11:47:18.919 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@b6941ad startId=313 args=Intent { cmp=research.sg.edu.edapp/.AppLoggingService }}
+09-17 11:47:20.750 17950-17950/research.sg.edu.edapp D/ViewRootImpl: doProcessInputEvents ViewRoot{a2cd603 research.sg.edu.edapp/research.sg.edu.edapp.MoodRecorder,ident = 5}
+09-17 11:47:20.752 17950-17950/research.sg.edu.edapp D/View: Touch up dispatch to android.support.v7.widget.AppCompatRadioButton{fe185e4 VFED..C.. ...P.... 0,192-261,288 #7f10009e app:id/radioMood3}, event = MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=159.85199, y[0]=64.695435, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7242627, downTime=7242538, deviceId=3, source=0x1002 }
+09-17 11:47:22.345 17950-17950/research.sg.edu.edapp D/ViewRootImpl: doProcessInputEvents ViewRoot{a2cd603 research.sg.edu.edapp/research.sg.edu.edapp.MoodRecorder,ident = 5}
+09-17 11:47:22.345 17950-17950/research.sg.edu.edapp D/View: Touch up dispatch to android.support.v7.widget.AppCompatButton{4739e49 VFED..C.. ...P.... 0,635-425,779 #7f1000a1 app:id/btnRecordMood}, event = MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=263.7558, y[0]=73.50598, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7244224, downTime=7244162, deviceId=3, source=0x1002 }
+09-17 11:47:22.346 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = sound_effects_enabled , value = 0
+09-17 11:47:22.346 17950-17950/research.sg.edu.edapp D/MPlugin: createInstance(): Begin = 7244227
+09-17 11:47:22.346 17950-17950/research.sg.edu.edapp D/MPlugin: create Instance (two parameters) with : com.mediatek.common.telephony.IOnlyOwnerSimSupport
+09-17 11:47:22.346 17950-17950/research.sg.edu.edapp D/MPlugin: Clazz exists on mapping table : false
+09-17 11:47:22.346 17950-17950/research.sg.edu.edapp E/MPlugin: Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+09-17 11:47:22.346 17950-17950/research.sg.edu.edapp D/MPlugin: createInstance(): End = 7244227
+09-17 11:47:22.360 17950-17950/research.sg.edu.edapp I/System.out: 000002,1,android,2017-09-17 09:56:32.576,101,2017-09-17 11:47:22.349
+09-17 11:47:22.360 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,53755.5282330014,0.818
+09-17 11:47:22.362 17950-17950/research.sg.edu.edapp I/System.out: 000002,2,android,2017-09-17 09:56:33.556,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.362 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,53755.5282330014,0.251
+09-17 11:47:22.362 17950-17950/research.sg.edu.edapp I/System.out: 000002,3,android,2017-09-17 09:56:33.957,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.363 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,53755.5282330014,1505622394.194
+09-17 11:47:22.363 17950-17950/research.sg.edu.edapp I/System.out: 000002,4,android,2017-09-17 09:56:34.250,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.363 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,53755.5282330014,1505622394.491
+09-17 11:47:22.364 17950-17950/research.sg.edu.edapp I/System.out: 000002,5,android,2017-09-17 09:56:34.584,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.364 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.270588248968124,0.0559232243096249,0.244
+09-17 11:47:22.365 17950-17950/research.sg.edu.edapp I/System.out: 000002,6,android,2017-09-17 09:56:34.857,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.365 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.290196090936661,66.2047889172044,0.236
+09-17 11:47:22.366 17950-17950/research.sg.edu.edapp I/System.out: 000002,7,com.google.android.youtube,2017-09-17 09:58:59.139,97,2017-09-17 11:47:22.349
+09-17 11:47:22.366 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.67058826982975,43.9828154412777,0.375
+09-17 11:47:22.367 17950-17950/research.sg.edu.edapp I/System.out: 000002,8,com.google.android.youtube,2017-09-17 09:58:59.567,108,2017-09-17 11:47:22.349
+09-17 11:47:22.367 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.321568638086319,0.193833942826217,0.308
+09-17 11:47:22.368 17950-17950/research.sg.edu.edapp I/System.out: 000002,9,com.google.android.youtube,2017-09-17 09:58:59.794,108,2017-09-17 11:47:22.349
+09-17 11:47:22.368 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.403921604156494,0.0,0.222
+09-17 11:47:22.368 17950-17950/research.sg.edu.edapp I/System.out: 000002,10,com.google.android.youtube,2017-09-17 09:59:00.026,32,2017-09-17 11:47:22.349
+09-17 11:47:22.369 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.360784322023392,0.0526003703093904,0.007
+09-17 11:47:22.370 17950-17950/research.sg.edu.edapp I/System.out: 000002,11,com.google.android.youtube,2017-09-17 09:59:00.905,105,2017-09-17 11:47:22.349
+09-17 11:47:22.370 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.450980424880981,0.0670432126640904,0.32
+09-17 11:47:22.370 17950-17950/research.sg.edu.edapp I/System.out: 000002,12,com.google.android.youtube,2017-09-17 09:59:01.154,110,2017-09-17 11:47:22.349
+09-17 11:47:22.370 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.486274540424347,0.0820921841870482,0.281
+09-17 11:47:22.371 17950-17950/research.sg.edu.edapp I/System.out: 000002,13,com.google.android.youtube,2017-09-17 09:59:01.498,100,2017-09-17 11:47:22.349
+09-17 11:47:22.371 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.282352954149246,2.09965121090917,0.241
+09-17 11:47:22.372 17950-17950/research.sg.edu.edapp I/System.out: 000002,14,com.google.android.youtube,2017-09-17 09:59:01.832,105,2017-09-17 11:47:22.349
+09-17 11:47:22.372 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.372549027204514,0.0,0.283
+09-17 11:47:22.373 17950-17950/research.sg.edu.edapp I/System.out: 000002,15,com.twitter.android,2017-09-17 09:59:30.806,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.373 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.466666698455811,0.0207899561725615,0.083
+09-17 11:47:22.374 17950-17950/research.sg.edu.edapp I/System.out: 000002,16,com.twitter.android,2017-09-17 09:59:31.553,119,2017-09-17 11:47:22.349
+09-17 11:47:22.374 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.407843172550201,0.111285889739239,0.303
+09-17 11:47:22.375 17950-17950/research.sg.edu.edapp I/System.out: 000002,17,com.twitter.android,2017-09-17 09:59:32.354,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.375 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.184313729405403,0.0,0.029
+09-17 11:47:22.376 17950-17950/research.sg.edu.edapp I/System.out: 000002,18,com.twitter.android,2017-09-17 09:59:33.394,104,2017-09-17 11:47:22.349
+09-17 11:47:22.376 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.458823561668396,0.211716114950063,0.357
+09-17 11:47:22.377 17950-17950/research.sg.edu.edapp I/System.out: 000002,19,com.twitter.android,2017-09-17 09:59:33.670,121,2017-09-17 11:47:22.349
+09-17 11:47:22.377 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.218
+09-17 11:47:22.378 17950-17950/research.sg.edu.edapp I/System.out: 000002,20,com.twitter.android,2017-09-17 09:59:33.897,32,2017-09-17 11:47:22.349
+09-17 11:47:22.378 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.01
+09-17 11:47:22.379 17950-17950/research.sg.edu.edapp I/System.out: 000002,21,com.twitter.android,2017-09-17 09:59:34.022,105,2017-09-17 11:47:22.349
+09-17 11:47:22.379 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.518
+09-17 11:47:22.379 17950-17950/research.sg.edu.edapp I/System.out: 000002,22,com.twitter.android,2017-09-17 09:59:34.458,115,2017-09-17 11:47:22.349
+09-17 11:47:22.380 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.462745130062103,0.0,0.235
+09-17 11:47:22.380 17950-17950/research.sg.edu.edapp I/System.out: 000002,23,com.twitter.android,2017-09-17 09:59:34.700,32,2017-09-17 11:47:22.349
+09-17 11:47:22.380 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.01
+09-17 11:47:22.381 17950-17950/research.sg.edu.edapp I/System.out: 000002,24,com.twitter.android,2017-09-17 09:59:34.823,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.381 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.250980406999588,0.115729309219313,0.093
+09-17 11:47:22.382 17950-17950/research.sg.edu.edapp I/System.out: 000002,25,com.twitter.android,2017-09-17 09:59:35.224,119,2017-09-17 11:47:22.349
+09-17 11:47:22.382 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.231372565031052,6.53168460309714,0.289
+09-17 11:47:22.383 17950-17950/research.sg.edu.edapp I/System.out: 000002,26,com.twitter.android,2017-09-17 09:59:35.667,104,2017-09-17 11:47:22.349
+09-17 11:47:22.383 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.270588248968124,0.13506078161931,0.321
+09-17 11:47:22.384 17950-17950/research.sg.edu.edapp I/System.out: 000002,27,com.twitter.android,2017-09-17 09:59:36.669,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.384 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.13506078161931,0.257
+09-17 11:47:22.385 17950-17950/research.sg.edu.edapp I/System.out: 000002,28,com.twitter.android,2017-09-17 09:59:36.949,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.385 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.631372570991516,0.00511083656715321,0.004
+09-17 11:47:22.386 17950-17950/research.sg.edu.edapp I/System.out: 000002,29,com.twitter.android,2017-09-17 09:59:37.528,104,2017-09-17 11:47:22.349
+09-17 11:47:22.386 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.211764723062515,0.0,0.276
+09-17 11:47:22.387 17950-17950/research.sg.edu.edapp I/System.out: 000002,30,com.twitter.android,2017-09-17 09:59:37.962,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.387 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.345
+09-17 11:47:22.388 17950-17950/research.sg.edu.edapp I/System.out: 000002,31,com.twitter.android,2017-09-17 09:59:38.782,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.388 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.682352989912033,0.0313607607410655,0.104
+09-17 11:47:22.388 17950-17950/research.sg.edu.edapp I/System.out: 000002,32,com.twitter.android,2017-09-17 09:59:39.348,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.388 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.407843172550201,0.0501196359363578,0.095
+09-17 11:47:22.389 17950-17950/research.sg.edu.edapp I/System.out: 000002,33,com.twitter.android,2017-09-17 09:59:39.729,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.389 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.231372565031052,0.114329008567641,0.095
+09-17 11:47:22.390 17950-17950/research.sg.edu.edapp I/System.out: 000002,34,com.twitter.android,2017-09-17 09:59:40.416,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.390 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.376470625400543,0.0622284528134615,0.087
+09-17 11:47:22.391 17950-17950/research.sg.edu.edapp I/System.out: 000002,35,com.twitter.android,2017-09-17 09:59:41.037,104,2017-09-17 11:47:22.349
+09-17 11:47:22.391 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.333333343267441,0.0,0.345
+09-17 11:47:22.393 17950-17950/research.sg.edu.edapp I/System.out: 000002,36,com.twitter.android,2017-09-17 09:59:41.330,97,2017-09-17 11:47:22.349
+09-17 11:47:22.393 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.388235330581665,0.0144729764189925,0.281
+09-17 11:47:22.393 17950-17950/research.sg.edu.edapp I/System.out: 000002,37,com.twitter.android,2017-09-17 09:59:41.568,116,2017-09-17 11:47:22.349
+09-17 11:47:22.394 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.232
+09-17 11:47:22.394 17950-17950/research.sg.edu.edapp I/System.out: 000002,38,com.twitter.android,2017-09-17 09:59:41.824,115,2017-09-17 11:47:22.349
+09-17 11:47:22.394 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.392156898975372,0.00828467803220578,0.256
+09-17 11:47:22.395 17950-17950/research.sg.edu.edapp I/System.out: 000002,39,com.twitter.android,2017-09-17 09:59:42.085,97,2017-09-17 11:47:22.349
+09-17 11:47:22.395 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.364705890417099,0.00095729990733427,0.227
+09-17 11:47:22.396 17950-17950/research.sg.edu.edapp I/System.out: 000002,40,com.twitter.android,2017-09-17 09:59:42.318,97,2017-09-17 11:47:22.349
+09-17 11:47:22.396 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.329411774873734,0.00725235281834412,0.229
+09-17 11:47:22.397 17950-17950/research.sg.edu.edapp I/System.out: 000002,41,com.twitter.android,2017-09-17 09:59:42.551,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.397 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.00725235281834412,0.232
+09-17 11:47:22.398 17950-17950/research.sg.edu.edapp I/System.out: 000002,42,com.twitter.android,2017-09-17 09:59:43.324,112,2017-09-17 11:47:22.349
+09-17 11:47:22.398 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.30588236451149,0.00369519511580258,0.273
+09-17 11:47:22.399 17950-17950/research.sg.edu.edapp I/System.out: 000002,43,com.twitter.android,2017-09-17 09:59:43.548,112,2017-09-17 11:47:22.349
+09-17 11:47:22.399 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.274509817361832,0.0413042603036525,0.225
+09-17 11:47:22.400 17950-17950/research.sg.edu.edapp I/System.out: 000002,44,com.twitter.android,2017-09-17 09:59:43.908,-2,2017-09-17 11:47:22.349
+09-17 11:47:22.400 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.34901961684227,0.083790727933398,0.086
+09-17 11:47:22.400 17950-17950/research.sg.edu.edapp I/System.out: 000002,45,com.twitter.android,2017-09-17 09:59:44.754,39,2017-09-17 11:47:22.349
+09-17 11:47:22.400 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.341176480054855,0.0642089854050423,0.516
+09-17 11:47:22.401 17950-17950/research.sg.edu.edapp I/System.out: 000002,46,com.twitter.android,2017-09-17 09:59:45.233,-2,2017-09-17 11:47:22.349
+09-17 11:47:22.401 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.34901961684227,0.0137894846401715,0.004
+09-17 11:47:22.402 17950-17950/research.sg.edu.edapp I/System.out: 000002,47,com.twitter.android,2017-09-17 09:59:45.700,115,2017-09-17 11:47:22.349
+09-17 11:47:22.402 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.431372582912445,0.00114806481296644,0.31
+09-17 11:47:22.403 17950-17950/research.sg.edu.edapp I/System.out: 000002,48,com.twitter.android,2017-09-17 09:59:45.947,32,2017-09-17 11:47:22.349
+09-17 11:47:22.403 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.376470625400543,0.102454236944913,0.01
+09-17 11:47:22.404 17950-17950/research.sg.edu.edapp I/System.out: 000002,49,com.twitter.android,2017-09-17 09:59:47.622,103,2017-09-17 11:47:22.349
+09-17 11:47:22.404 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.325490206480026,0.0985434443135775,0.325
+09-17 11:47:22.405 17950-17950/research.sg.edu.edapp I/System.out: 000002,50,com.twitter.android,2017-09-17 09:59:47.864,105,2017-09-17 11:47:22.349
+09-17 11:47:22.405 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.466666698455811,0.00386834612001149,0.227
+09-17 11:47:22.405 17950-17950/research.sg.edu.edapp I/System.out: 000002,51,com.twitter.android,2017-09-17 09:59:48.098,102,2017-09-17 11:47:22.349
+09-17 11:47:22.406 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.341176480054855,0.0069436163771315,0.234
+09-17 11:47:22.406 17950-17950/research.sg.edu.edapp I/System.out: 000002,52,com.twitter.android,2017-09-17 09:59:48.338,32,2017-09-17 11:47:22.349
+09-17 11:47:22.406 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.462745130062103,0.0267180255709524,0.01
+09-17 11:47:22.407 17950-17950/research.sg.edu.edapp I/System.out: 000002,53,com.twitter.android,2017-09-17 09:59:48.978,107,2017-09-17 11:47:22.349
+09-17 11:47:22.407 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.400000035762787,0.315786045331473,0.311
+09-17 11:47:22.408 17950-17950/research.sg.edu.edapp I/System.out: 000002,54,com.twitter.android,2017-09-17 09:59:49.203,101,2017-09-17 11:47:22.349
+09-17 11:47:22.408 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.384313762187958,0.00100325604393036,0.229
+09-17 11:47:22.409 17950-17950/research.sg.edu.edapp I/System.out: 000002,55,com.twitter.android,2017-09-17 09:59:49.503,121,2017-09-17 11:47:22.349
+09-17 11:47:22.409 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.30588236451149,0.148156269620478,0.287
+09-17 11:47:22.410 17950-17950/research.sg.edu.edapp I/System.out: 000002,56,com.twitter.android,2017-09-17 09:59:49.732,98,2017-09-17 11:47:22.349
+09-17 11:47:22.410 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,0.00165064001994647,0.266
+09-17 11:47:22.411 17950-17950/research.sg.edu.edapp I/System.out: 000002,57,com.twitter.android,2017-09-17 09:59:50.004,111,2017-09-17 11:47:22.349
+09-17 11:47:22.411 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.419607877731323,0.0483385260964866,0.207
+09-17 11:47:22.412 17950-17950/research.sg.edu.edapp I/System.out: 000002,58,com.twitter.android,2017-09-17 09:59:50.324,97,2017-09-17 11:47:22.349
+09-17 11:47:22.412 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.290196090936661,0.0867855551738028,0.326
+09-17 11:47:22.413 17950-17950/research.sg.edu.edapp I/System.out: 000002,59,com.twitter.android,2017-09-17 09:59:50.557,114,2017-09-17 11:47:22.349
+09-17 11:47:22.413 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.466666698455811,0.0546445178139747,0.224
+09-17 11:47:22.413 17950-17950/research.sg.edu.edapp I/System.out: 000002,60,com.twitter.android,2017-09-17 09:59:50.788,100,2017-09-17 11:47:22.349
+09-17 11:47:22.414 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.447058856487274,0.0013523985233213,0.236
+09-17 11:47:22.414 17950-17950/research.sg.edu.edapp I/System.out: 000002,61,com.twitter.android,2017-09-17 09:59:51.030,32,2017-09-17 11:47:22.349
+09-17 11:47:22.414 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.48235297203064,0.0882097657255059,0.011
+09-17 11:47:22.415 17950-17950/research.sg.edu.edapp I/System.out: 000002,62,com.twitter.android,2017-09-17 09:59:51.343,102,2017-09-17 11:47:22.349
+09-17 11:47:22.415 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.392156898975372,0.11802412840917,0.302
+09-17 11:47:22.416 17950-17950/research.sg.edu.edapp I/System.out: 000002,63,com.twitter.android,2017-09-17 09:59:51.570,117,2017-09-17 11:47:22.349
+09-17 11:47:22.416 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,0.0,0.224
+09-17 11:47:22.417 17950-17950/research.sg.edu.edapp I/System.out: 000002,64,com.twitter.android,2017-09-17 09:59:51.799,108,2017-09-17 11:47:22.349
+09-17 11:47:22.417 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.372549027204514,0.0524673942141901,0.221
+09-17 11:47:22.418 17950-17950/research.sg.edu.edapp I/System.out: 000002,65,com.twitter.android,2017-09-17 09:59:52.027,108,2017-09-17 11:47:22.349
+09-17 11:47:22.418 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.38039219379425,0.0148886313120693,0.226
+09-17 11:47:22.419 17950-17950/research.sg.edu.edapp I/System.out: 000002,66,com.twitter.android,2017-09-17 09:59:52.259,32,2017-09-17 11:47:22.349
+09-17 11:47:22.419 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.011
+09-17 11:47:22.420 17950-17950/research.sg.edu.edapp I/System.out: 000002,67,com.twitter.android,2017-09-17 09:59:52.374,111,2017-09-17 11:47:22.349
+09-17 11:47:22.420 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.498039245605469,0.0,0.323
+09-17 11:47:22.421 17950-17950/research.sg.edu.edapp I/System.out: 000002,68,com.twitter.android,2017-09-17 09:59:52.616,103,2017-09-17 11:47:22.349
+09-17 11:47:22.421 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,0.00104352425007568,0.216
+09-17 11:47:22.421 17950-17950/research.sg.edu.edapp I/System.out: 000002,69,com.twitter.android,2017-09-17 09:59:52.839,32,2017-09-17 11:47:22.349
+09-17 11:47:22.422 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.011
+09-17 11:47:22.422 17950-17950/research.sg.edu.edapp I/System.out: 000002,70,com.twitter.android,2017-09-17 09:59:53.356,116,2017-09-17 11:47:22.349
+09-17 11:47:22.422 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.223529428243637,0.173060544962301,0.32
+09-17 11:47:22.423 17950-17950/research.sg.edu.edapp I/System.out: 000002,71,com.twitter.android,2017-09-17 09:59:53.651,106,2017-09-17 11:47:22.349
+09-17 11:47:22.423 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.286274522542953,0.00182829858744183,0.252
+09-17 11:47:22.424 17950-17950/research.sg.edu.edapp I/System.out: 000002,72,com.twitter.android,2017-09-17 09:59:53.890,101,2017-09-17 11:47:22.349
+09-17 11:47:22.424 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.38039219379425,0.000774720707598618,0.211
+09-17 11:47:22.425 17950-17950/research.sg.edu.edapp I/System.out: 000002,73,com.twitter.android,2017-09-17 09:59:54.107,32,2017-09-17 11:47:22.349
+09-17 11:47:22.425 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.388235330581665,0.0921822510344993,0.01
+09-17 11:47:22.426 17950-17950/research.sg.edu.edapp I/System.out: 000002,74,com.twitter.android,2017-09-17 09:59:56.119,100,2017-09-17 11:47:22.349
+09-17 11:47:22.426 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,159811.17644052,1.981
+09-17 11:47:22.427 17950-17950/research.sg.edu.edapp I/System.out: 000002,75,com.twitter.android,2017-09-17 09:59:58.224,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.427 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,159811.17644052,0.275
+09-17 11:47:22.428 17950-17950/research.sg.edu.edapp I/System.out: 000002,76,com.twitter.android,2017-09-17 09:59:59.206,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.428 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.250980406999588,0.0731998035466948,0.24
+09-17 11:47:22.428 17950-17950/research.sg.edu.edapp I/System.out: 000002,77,com.twitter.android,2017-09-17 09:59:59.535,108,2017-09-17 11:47:22.349
+09-17 11:47:22.429 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.529411792755127,0.48476115099105,0.298
+09-17 11:47:22.429 17950-17950/research.sg.edu.edapp I/System.out: 000002,78,com.twitter.android,2017-09-17 10:00:00.190,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.430 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.48476115099105,0.256
+09-17 11:47:22.430 17950-17950/research.sg.edu.edapp I/System.out: 000002,79,com.twitter.android,2017-09-17 10:00:00.455,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.430 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.164705887436867,0.0231619804276525,0.247
+09-17 11:47:22.431 17950-17950/research.sg.edu.edapp I/System.out: 000002,80,com.twitter.android,2017-09-17 10:00:01.374,104,2017-09-17 11:47:22.349
+09-17 11:47:22.431 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.725490242242813,0.252175561990579,0.313
+09-17 11:47:22.432 17950-17950/research.sg.edu.edapp I/System.out: 000002,81,com.twitter.android,2017-09-17 10:00:01.608,101,2017-09-17 11:47:22.349
+09-17 11:47:22.432 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.360784322023392,0.00401375066976901,0.222
+09-17 11:47:22.433 17950-17950/research.sg.edu.edapp I/System.out: 000002,82,com.twitter.android,2017-09-17 10:00:01.840,32,2017-09-17 11:47:22.349
+09-17 11:47:22.433 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.013
+09-17 11:47:22.434 17950-17950/research.sg.edu.edapp I/System.out: 000002,83,com.twitter.android,2017-09-17 10:00:02.748,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.434 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.28
+09-17 11:47:22.435 17950-17950/research.sg.edu.edapp I/System.out: 000002,84,com.twitter.android,2017-09-17 10:00:03.038,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.435 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.360784322023392,0.0726778197864942,0.238
+09-17 11:47:22.435 17950-17950/research.sg.edu.edapp I/System.out: 000002,85,com.twitter.android,2017-09-17 10:00:03.439,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.436 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0726778197864942,1505622603.658
+09-17 11:47:22.436 17950-17950/research.sg.edu.edapp I/System.out: 000002,86,com.twitter.android,2017-09-17 10:00:03.713,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.436 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0726778197864942,1505622603.949
+09-17 11:47:22.437 17950-17950/research.sg.edu.edapp I/System.out: 000002,87,com.twitter.android,2017-09-17 10:00:04.003,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.437 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0726778197864942,1505622604.249
+09-17 11:47:22.438 17950-17950/research.sg.edu.edapp I/System.out: 000002,88,com.twitter.android,2017-09-17 10:00:04.304,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.438 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0726778197864942,1505622604.547
+09-17 11:47:22.439 17950-17950/research.sg.edu.edapp I/System.out: 000002,89,com.twitter.android,2017-09-17 10:00:04.959,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.439 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.431372582912445,483.988841470763,0.218
+09-17 11:47:22.440 17950-17950/research.sg.edu.edapp I/System.out: 000002,90,com.twitter.android,2017-09-17 10:00:05.271,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.440 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.490196093916893,0.0129676310459521,0.039
+09-17 11:47:22.441 17950-17950/research.sg.edu.edapp I/System.out: 000002,91,com.twitter.android,2017-09-17 10:00:06.056,98,2017-09-17 11:47:22.349
+09-17 11:47:22.441 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.34901961684227,0.192014523244673,0.326
+09-17 11:47:22.442 17950-17950/research.sg.edu.edapp I/System.out: 000002,92,com.twitter.android,2017-09-17 10:00:06.847,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.442 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.462745130062103,0.174437729975584,0.094
+09-17 11:47:22.443 17950-17950/research.sg.edu.edapp I/System.out: 000002,93,com.twitter.android,2017-09-17 10:00:07.726,111,2017-09-17 11:47:22.349
+09-17 11:47:22.443 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.203921586275101,0.384528434465195,0.342
+09-17 11:47:22.444 17950-17950/research.sg.edu.edapp I/System.out: 000002,94,com.twitter.android,2017-09-17 10:00:07.993,108,2017-09-17 11:47:22.349
+09-17 11:47:22.444 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.270588248968124,0.0,0.246
+09-17 11:47:22.445 17950-17950/research.sg.edu.edapp I/System.out: 000002,95,com.twitter.android,2017-09-17 10:00:08.224,108,2017-09-17 11:47:22.349
+09-17 11:47:22.445 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.278431385755539,0.0906722318544049,0.206
+09-17 11:47:22.446 17950-17950/research.sg.edu.edapp I/System.out: 000002,96,com.twitter.android,2017-09-17 10:00:08.436,121,2017-09-17 11:47:22.349
+09-17 11:47:22.446 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.462745130062103,0.00162075697072857,0.213
+09-17 11:47:22.447 17950-17950/research.sg.edu.edapp I/System.out: 000002,97,com.twitter.android,2017-09-17 10:00:08.768,119,2017-09-17 11:47:22.349
+09-17 11:47:22.447 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.26274511218071,0.00563221927360678,0.32
+09-17 11:47:22.448 17950-17950/research.sg.edu.edapp I/System.out: 000002,98,com.twitter.android,2017-09-17 10:00:09.004,111,2017-09-17 11:47:22.349
+09-17 11:47:22.448 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.34901961684227,0.0203892879359752,0.238
+09-17 11:47:22.449 17950-17950/research.sg.edu.edapp I/System.out: 000002,99,com.twitter.android,2017-09-17 10:00:09.404,111,2017-09-17 11:47:22.349
+09-17 11:47:22.449 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.392156898975372,0.312915070299109,0.318
+09-17 11:47:22.450 17950-17950/research.sg.edu.edapp I/System.out: 000002,100,com.twitter.android,2017-09-17 10:00:10.079,100,2017-09-17 11:47:22.349
+09-17 11:47:22.450 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.329411774873734,0.123411292796422,0.321
+09-17 11:47:22.451 17950-17950/research.sg.edu.edapp I/System.out: 000002,101,com.twitter.android,2017-09-17 10:00:10.326,32,2017-09-17 11:47:22.349
+09-17 11:47:22.451 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.368627458810806,0.0027476822517026,0.01
+09-17 11:47:22.452 17950-17950/research.sg.edu.edapp I/System.out: 000002,102,com.twitter.android,2017-09-17 10:00:11.500,97,2017-09-17 11:47:22.349
+09-17 11:47:22.452 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,91244.4479137134,1.277
+09-17 11:47:22.452 17950-17950/research.sg.edu.edapp I/System.out: 000002,103,com.twitter.android,2017-09-17 10:00:12.427,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.453 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,91244.4479137134,0.248
+09-17 11:47:22.453 17950-17950/research.sg.edu.edapp I/System.out: 000002,104,com.twitter.android,2017-09-17 10:00:14.424,97,2017-09-17 11:47:22.349
+09-17 11:47:22.453 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.764705926179886,95958.8106260898,1.442
+09-17 11:47:22.454 17950-17950/research.sg.edu.edapp I/System.out: 000002,105,com.twitter.android,2017-09-17 10:00:15.311,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.454 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,95958.8106260898,0.238
+09-17 11:47:22.455 17950-17950/research.sg.edu.edapp I/System.out: 000002,106,com.twitter.android,2017-09-17 10:00:15.945,100,2017-09-17 11:47:22.349
+09-17 11:47:22.455 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.635294169187546,0.173401867970665,0.4
+09-17 11:47:22.456 17950-17950/research.sg.edu.edapp I/System.out: 000002,107,com.twitter.android,2017-09-17 10:00:16.222,105,2017-09-17 11:47:22.349
+09-17 11:47:22.456 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.222
+09-17 11:47:22.457 17950-17950/research.sg.edu.edapp I/System.out: 000002,108,com.twitter.android,2017-09-17 10:00:16.449,118,2017-09-17 11:47:22.349
+09-17 11:47:22.457 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.26
+09-17 11:47:22.458 17950-17950/research.sg.edu.edapp I/System.out: 000002,109,com.twitter.android,2017-09-17 10:00:16.723,97,2017-09-17 11:47:22.349
+09-17 11:47:22.458 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.321568638086319,0.0,0.231
+09-17 11:47:22.459 17950-17950/research.sg.edu.edapp I/System.out: 000002,110,com.twitter.android,2017-09-17 10:00:16.961,32,2017-09-17 11:47:22.349
+09-17 11:47:22.459 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.352941185235977,0.00122039167865463,0.01
+09-17 11:47:22.460 17950-17950/research.sg.edu.edapp I/System.out: 000002,111,com.twitter.android,2017-09-17 10:00:18.804,103,2017-09-17 11:47:22.349
+09-17 11:47:22.460 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.372549027204514,0.0978991075431161,0.339
+09-17 11:47:22.460 17950-17950/research.sg.edu.edapp I/System.out: 000002,112,com.twitter.android,2017-09-17 10:00:19.041,105,2017-09-17 11:47:22.349
+09-17 11:47:22.461 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.229
+09-17 11:47:22.461 17950-17950/research.sg.edu.edapp I/System.out: 000002,113,com.twitter.android,2017-09-17 10:00:19.305,102,2017-09-17 11:47:22.349
+09-17 11:47:22.461 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.427451014518738,0.0396810324624301,0.271
+09-17 11:47:22.462 17950-17950/research.sg.edu.edapp I/System.out: 000002,114,com.twitter.android,2017-09-17 10:00:19.592,115,2017-09-17 11:47:22.349
+09-17 11:47:22.462 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.423529446125031,0.059971004676092,0.255
+09-17 11:47:22.463 17950-17950/research.sg.edu.edapp I/System.out: 000002,115,com.twitter.android,2017-09-17 10:00:19.814,32,2017-09-17 11:47:22.349
+09-17 11:47:22.463 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.333333343267441,0.00192460733910409,0.01
+09-17 11:47:22.464 17950-17950/research.sg.edu.edapp I/System.out: 000002,116,com.twitter.android,2017-09-17 10:00:21.295,-2,2017-09-17 11:47:22.349
+09-17 11:47:22.464 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,0.00977456375913089,0.118
+09-17 11:47:22.465 17950-17950/research.sg.edu.edapp I/System.out: 000002,117,com.twitter.android,2017-09-17 10:00:22.734,63,2017-09-17 11:47:22.349
+09-17 11:47:22.465 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.454901993274689,0.979921705761526,0.053
+09-17 11:47:22.466 17950-17950/research.sg.edu.edapp I/System.out: 000002,118,com.twitter.android,2017-09-17 10:00:23.035,-2,2017-09-17 11:47:22.349
+09-17 11:47:22.466 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.325490206480026,0.131717975499585,0.105
+09-17 11:47:22.466 17950-17950/research.sg.edu.edapp I/System.out: 000002,119,com.twitter.android,2017-09-17 10:00:23.510,32,2017-09-17 11:47:22.349
+09-17 11:47:22.467 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.094
+09-17 11:47:22.467 17950-17950/research.sg.edu.edapp I/System.out: 000002,120,com.twitter.android,2017-09-17 10:00:23.735,-9,2017-09-17 11:47:22.349
+09-17 11:47:22.467 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,0.465036603873372,0.094
+09-17 11:47:22.468 17950-17950/research.sg.edu.edapp I/System.out: 000002,121,com.twitter.android,2017-09-17 10:00:26.376,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.468 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.403921604156494,0.120598783321859,0.128
+09-17 11:47:22.469 17950-17950/research.sg.edu.edapp I/System.out: 000002,122,android,2017-09-17 10:02:02.797,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.469 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.324
+09-17 11:47:22.470 17950-17950/research.sg.edu.edapp I/System.out: 000002,123,android,2017-09-17 10:02:03.131,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.470 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,0.0308282444747221,0.226
+09-17 11:47:22.471 17950-17950/research.sg.edu.edapp I/System.out: 000002,124,android,2017-09-17 10:02:03.368,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.471 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.242
+09-17 11:47:22.472 17950-17950/research.sg.edu.edapp I/System.out: 000002,125,android,2017-09-17 10:02:03.621,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.472 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.43921571969986,0.0,0.263
+09-17 11:47:22.473 17950-17950/research.sg.edu.edapp I/System.out: 000002,126,android,2017-09-17 10:02:03.895,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.473 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.419607877731323,0.0725688347140926,0.211
+09-17 11:47:22.473 17950-17950/research.sg.edu.edapp I/System.out: 000002,127,android,2017-09-17 10:02:04.117,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.474 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.427451014518738,0.0944407898700763,0.222
+09-17 11:47:22.474 17950-17950/research.sg.edu.edapp I/System.out: 000002,128,android,2017-09-17 10:02:04.350,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.474 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.427451014518738,0.010254399822942,0.258
+09-17 11:47:22.475 17950-17950/research.sg.edu.edapp I/System.out: 000002,129,android,2017-09-17 10:02:04.653,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.475 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.423529446125031,0.0446303688479242,0.257
+09-17 11:47:22.476 17950-17950/research.sg.edu.edapp I/System.out: 000002,130,android,2017-09-17 10:02:06.337,100,2017-09-17 11:47:22.349
+09-17 11:47:22.476 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.690196126699448,0.0826571491826912,0.281
+09-17 11:47:22.477 17950-17950/research.sg.edu.edapp I/System.out: 000002,131,android,2017-09-17 10:02:12.182,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.477 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0826571491826912,0.319
+09-17 11:47:22.478 17950-17950/research.sg.edu.edapp I/System.out: 000002,132,com.instagram.android,2017-09-17 10:17:10.638,32,2017-09-17 11:47:22.349
+09-17 11:47:22.478 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.847058892250061,0.513020020252028,0.078
+09-17 11:47:22.479 17950-17950/research.sg.edu.edapp I/System.out: 000002,133,com.instagram.android,2017-09-17 10:17:15.156,109,2017-09-17 11:47:22.349
+09-17 11:47:22.479 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,166150.665106116,1.821
+09-17 11:47:22.480 17950-17950/research.sg.edu.edapp I/System.out: 000002,134,com.instagram.android,2017-09-17 10:17:16.154,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.480 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,166150.665106116,0.302
+09-17 11:47:22.481 17950-17950/research.sg.edu.edapp I/System.out: 000002,135,com.instagram.android,2017-09-17 10:17:18.704,109,2017-09-17 11:47:22.349
+09-17 11:47:22.481 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.749019652605057,150499.842658641,1.89
+09-17 11:47:22.482 17950-17950/research.sg.edu.edapp I/System.out: 000002,136,com.instagram.android,2017-09-17 10:17:25.130,100,2017-09-17 11:47:22.349
+09-17 11:47:22.482 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.447058856487274,113088.329416937,1.624
+09-17 11:47:22.483 17950-17950/research.sg.edu.edapp I/System.out: 000002,137,com.instagram.android,2017-09-17 10:17:27.957,32,2017-09-17 11:47:22.349
+09-17 11:47:22.483 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.411764740943909,0.311210786995326,0.153
+09-17 11:47:22.483 17950-17950/research.sg.edu.edapp I/System.out: 000002,138,com.instagram.android,2017-09-17 10:17:29.322,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.483 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.311210786995326,0.23
+09-17 11:47:22.484 17950-17950/research.sg.edu.edapp I/System.out: 000002,139,com.instagram.android,2017-09-17 10:17:30.373,32,2017-09-17 11:47:22.349
+09-17 11:47:22.484 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.835294157266617,0.135053055365471,0.097
+09-17 11:47:22.485 17950-17950/research.sg.edu.edapp I/System.out: 000002,140,com.instagram.android,2017-09-17 10:17:32.333,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.485 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.135053055365471,0.303
+09-17 11:47:22.486 17950-17950/research.sg.edu.edapp I/System.out: 000002,141,com.instagram.android,2017-09-17 10:17:33.905,100,2017-09-17 11:47:22.349
+09-17 11:47:22.486 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.752941220998764,0.000648711747638498,0.362
+09-17 11:47:22.487 17950-17950/research.sg.edu.edapp I/System.out: 000002,142,com.instagram.android,2017-09-17 10:17:34.594,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.487 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.000648711747638498,0.25
+09-17 11:47:22.488 17950-17950/research.sg.edu.edapp I/System.out: 000002,143,com.instagram.android,2017-09-17 10:17:34.853,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.488 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.30588236451149,0.000563873458478743,0.217
+09-17 11:47:22.489 17950-17950/research.sg.edu.edapp I/System.out: 000002,144,com.instagram.android,2017-09-17 10:17:35.079,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.489 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.298039227724075,0.0,0.22
+09-17 11:47:22.490 17950-17950/research.sg.edu.edapp I/System.out: 000002,145,com.instagram.android,2017-09-17 10:17:35.307,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.490 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.294117659330368,0.0385637679679916,0.246
+09-17 11:47:22.491 17950-17950/research.sg.edu.edapp I/System.out: 000002,146,com.instagram.android,2017-09-17 10:17:35.568,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.491 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.333333343267441,0.0,0.223
+09-17 11:47:22.492 17950-17950/research.sg.edu.edapp I/System.out: 000002,147,com.instagram.android,2017-09-17 10:17:37.717,97,2017-09-17 11:47:22.349
+09-17 11:47:22.492 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.694117695093155,37529.6919472644,1.393
+09-17 11:47:22.492 17950-17950/research.sg.edu.edapp I/System.out: 000002,148,com.instagram.android,2017-09-17 10:17:38.471,108,2017-09-17 11:47:22.349
+09-17 11:47:22.493 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.384313762187958,0.47149500509965,0.421
+09-17 11:47:22.493 17950-17950/research.sg.edu.edapp I/System.out: 000002,149,com.instagram.android,2017-09-17 10:17:38.734,108,2017-09-17 11:47:22.349
+09-17 11:47:22.493 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.333333343267441,0.0670788726589003,0.248
+09-17 11:47:22.494 17950-17950/research.sg.edu.edapp I/System.out: 000002,150,com.instagram.android,2017-09-17 10:17:38.989,108,2017-09-17 11:47:22.349
+09-17 11:47:22.494 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.325490206480026,0.0163643817960169,0.209
+09-17 11:47:22.495 17950-17950/research.sg.edu.edapp I/System.out: 000002,151,com.instagram.android,2017-09-17 10:17:39.425,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.495 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0163643817960169,0.231
+09-17 11:47:22.496 17950-17950/research.sg.edu.edapp I/System.out: 000002,152,com.instagram.android,2017-09-17 10:17:39.666,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.496 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.274509817361832,0.0181666371287336,0.215
+09-17 11:47:22.497 17950-17950/research.sg.edu.edapp I/System.out: 000002,153,com.instagram.android,2017-09-17 10:17:39.890,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.497 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.30588236451149,0.0842042087172175,0.258
+09-17 11:47:22.498 17950-17950/research.sg.edu.edapp I/System.out: 000002,154,com.instagram.android,2017-09-17 10:17:40.157,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.498 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.270588248968124,0.00833609958365346,0.204
+09-17 11:47:22.499 17950-17950/research.sg.edu.edapp I/System.out: 000002,155,com.instagram.android,2017-09-17 10:17:40.371,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.499 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.301960796117783,0.0147982034952858,0.21
+09-17 11:47:22.499 17950-17950/research.sg.edu.edapp I/System.out: 000002,156,com.instagram.android,2017-09-17 10:17:40.589,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.499 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.333333343267441,0.0235792372647044,0.212
+09-17 11:47:22.500 17950-17950/research.sg.edu.edapp I/System.out: 000002,157,com.instagram.android,2017-09-17 10:17:40.811,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.500 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.384313762187958,0.0327827203050969,0.239
+09-17 11:47:22.501 17950-17950/research.sg.edu.edapp I/System.out: 000002,158,com.instagram.android,2017-09-17 10:17:41.059,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.501 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.372549027204514,0.0188167611820996,0.221
+09-17 11:47:22.502 17950-17950/research.sg.edu.edapp I/System.out: 000002,159,com.instagram.android,2017-09-17 10:17:41.289,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.502 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.427451014518738,0.0364798779322362,0.226
+09-17 11:47:22.503 17950-17950/research.sg.edu.edapp I/System.out: 000002,160,com.instagram.android,2017-09-17 10:17:41.523,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.503 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.34901961684227,0.0,0.22
+09-17 11:47:22.504 17950-17950/research.sg.edu.edapp I/System.out: 000002,161,com.instagram.android,2017-09-17 10:17:41.764,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.504 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,0.0,0.214
+09-17 11:47:22.504 17950-17950/research.sg.edu.edapp I/System.out: 000002,162,com.instagram.android,2017-09-17 10:17:44.710,116,2017-09-17 11:47:22.349
+09-17 11:47:22.505 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.666666716337204,109426.305613257,1.766
+09-17 11:47:22.505 17950-17950/research.sg.edu.edapp I/System.out: 000002,163,com.instagram.android,2017-09-17 10:17:50.475,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.505 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,0.323
+09-17 11:47:22.506 17950-17950/research.sg.edu.edapp I/System.out: 000002,164,com.instagram.android,2017-09-17 10:17:50.875,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.506 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623671.112
+09-17 11:47:22.507 17950-17950/research.sg.edu.edapp I/System.out: 000002,165,com.instagram.android,2017-09-17 10:17:51.168,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.507 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623671.382
+09-17 11:47:22.508 17950-17950/research.sg.edu.edapp I/System.out: 000002,166,com.instagram.android,2017-09-17 10:17:51.439,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.508 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623671.667
+09-17 11:47:22.509 17950-17950/research.sg.edu.edapp I/System.out: 000002,167,com.instagram.android,2017-09-17 10:17:51.722,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.509 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623671.954
+09-17 11:47:22.510 17950-17950/research.sg.edu.edapp I/System.out: 000002,168,com.instagram.android,2017-09-17 10:17:52.008,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.510 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623672.238
+09-17 11:47:22.511 17950-17950/research.sg.edu.edapp I/System.out: 000002,169,com.instagram.android,2017-09-17 10:17:52.294,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.511 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623672.509
+09-17 11:47:22.511 17950-17950/research.sg.edu.edapp I/System.out: 000002,170,com.instagram.android,2017-09-17 10:17:52.564,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.512 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623672.794
+09-17 11:47:22.512 17950-17950/research.sg.edu.edapp I/System.out: 000002,171,com.instagram.android,2017-09-17 10:17:52.849,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.512 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623673.086
+09-17 11:47:22.513 17950-17950/research.sg.edu.edapp I/System.out: 000002,172,com.instagram.android,2017-09-17 10:17:53.141,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.513 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623673.396
+09-17 11:47:22.514 17950-17950/research.sg.edu.edapp I/System.out: 000002,173,com.instagram.android,2017-09-17 10:17:53.451,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.514 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623673.659
+09-17 11:47:22.515 17950-17950/research.sg.edu.edapp I/System.out: 000002,174,com.instagram.android,2017-09-17 10:17:53.714,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.515 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623673.928
+09-17 11:47:22.516 17950-17950/research.sg.edu.edapp I/System.out: 000002,175,com.instagram.android,2017-09-17 10:17:53.983,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.516 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623674.216
+09-17 11:47:22.517 17950-17950/research.sg.edu.edapp I/System.out: 000002,176,com.instagram.android,2017-09-17 10:17:54.271,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.517 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623674.532
+09-17 11:47:22.517 17950-17950/research.sg.edu.edapp I/System.out: 000002,177,com.instagram.android,2017-09-17 10:17:54.588,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.517 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,109426.305613257,1505623674.801
+09-17 11:47:22.518 17950-17950/research.sg.edu.edapp I/System.out: 000002,178,com.instagram.android,2017-09-17 10:17:55.007,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.518 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.400000035762787,0.0505246181030197,0.249
+09-17 11:47:22.519 17950-17950/research.sg.edu.edapp I/System.out: 000002,179,com.instagram.android,2017-09-17 10:17:55.656,111,2017-09-17 11:47:22.349
+09-17 11:47:22.519 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.674509823322296,0.145246099347684,0.319
+09-17 11:47:22.520 17950-17950/research.sg.edu.edapp I/System.out: 000002,180,com.instagram.android,2017-09-17 10:17:55.908,97,2017-09-17 11:47:22.349
+09-17 11:47:22.520 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.372549027204514,0.00502913153943473,0.243
+09-17 11:47:22.521 17950-17950/research.sg.edu.edapp I/System.out: 000002,181,com.instagram.android,2017-09-17 10:17:56.157,114,2017-09-17 11:47:22.349
+09-17 11:47:22.522 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.216
+09-17 11:47:22.522 17950-17950/research.sg.edu.edapp I/System.out: 000002,182,com.instagram.android,2017-09-17 10:17:56.385,100,2017-09-17 11:47:22.349
+09-17 11:47:22.522 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.462745130062103,0.0,0.225
+09-17 11:47:22.523 17950-17950/research.sg.edu.edapp I/System.out: 000002,183,com.instagram.android,2017-09-17 10:17:56.617,32,2017-09-17 11:47:22.349
+09-17 11:47:22.524 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.415686309337616,0.0148756885298472,0.011
+09-17 11:47:22.525 17950-17950/research.sg.edu.edapp I/System.out: 000002,184,com.instagram.android,2017-09-17 10:17:57.371,97,2017-09-17 11:47:22.349
+09-17 11:47:22.525 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.352941185235977,0.0965203269962311,0.388
+09-17 11:47:22.525 17950-17950/research.sg.edu.edapp I/System.out: 000002,185,com.instagram.android,2017-09-17 10:17:57.640,114,2017-09-17 11:47:22.349
+09-17 11:47:22.526 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.243
+09-17 11:47:22.526 17950-17950/research.sg.edu.edapp I/System.out: 000002,186,com.instagram.android,2017-09-17 10:17:57.892,116,2017-09-17 11:47:22.349
+09-17 11:47:22.527 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.001226645381962,0.212
+09-17 11:47:22.527 17950-17950/research.sg.edu.edapp I/System.out: 000002,187,com.instagram.android,2017-09-17 10:18:00.995,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.528 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.001226645381962,0.337
+09-17 11:47:22.528 17950-17950/research.sg.edu.edapp I/System.out: 000002,188,com.instagram.android,2017-09-17 10:18:01.644,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.528 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.635294139385223,0.0361360042211779,0.067
+09-17 11:47:22.529 17950-17950/research.sg.edu.edapp I/System.out: 000002,189,com.instagram.android,2017-09-17 10:18:02.555,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.530 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.372549027204514,0.686640618512242,0.084
+09-17 11:47:22.530 17950-17950/research.sg.edu.edapp I/System.out: 000002,190,com.instagram.android,2017-09-17 10:18:02.931,114,2017-09-17 11:47:22.349
+09-17 11:47:22.531 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.180392161011696,0.0,0.309
+09-17 11:47:22.531 17950-17950/research.sg.edu.edapp I/System.out: 000002,191,com.instagram.android,2017-09-17 10:18:04.705,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.531 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.277
+09-17 11:47:22.532 17950-17950/research.sg.edu.edapp I/System.out: 000002,192,com.instagram.android,2017-09-17 10:18:05.674,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.532 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.65490198135376,0.0464475076512649,0.085
+09-17 11:47:22.533 17950-17950/research.sg.edu.edapp I/System.out: 000002,193,com.instagram.android,2017-09-17 10:18:05.984,98,2017-09-17 11:47:22.349
+09-17 11:47:22.533 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.333333343267441,0.183939658265945,0.342
+09-17 11:47:22.534 17950-17950/research.sg.edu.edapp I/System.out: 000002,194,com.instagram.android,2017-09-17 10:18:09.275,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.534 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.183939658265945,0.321
+09-17 11:47:22.535 17950-17950/research.sg.edu.edapp I/System.out: 000002,195,com.instagram.android,2017-09-17 10:18:09.959,97,2017-09-17 11:47:22.349
+09-17 11:47:22.535 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.431372568011284,0.258947034048179,0.326
+09-17 11:47:22.536 17950-17950/research.sg.edu.edapp I/System.out: 000002,196,com.instagram.android,2017-09-17 10:18:10.704,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.536 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,0.258947034048179,0.242
+09-17 11:47:22.537 17950-17950/research.sg.edu.edapp I/System.out: 000002,197,com.instagram.android,2017-09-17 10:18:12.052,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.537 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.337254911661148,0.0,0.258
+09-17 11:47:22.538 17950-17950/research.sg.edu.edapp I/System.out: 000002,198,com.instagram.android,2017-09-17 10:18:14.696,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.538 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.266666680574417,0.0125628421567521,0.282
+09-17 11:47:22.539 17950-17950/research.sg.edu.edapp I/System.out: 000002,199,com.instagram.android,2017-09-17 10:18:14.989,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.540 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.243137270212173,0.0514935420696701,0.209
+09-17 11:47:22.541 17950-17950/research.sg.edu.edapp I/System.out: 000002,200,com.instagram.android,2017-09-17 10:18:15.527,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.541 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.647058844566345,763.002881542503,0.139
+09-17 11:47:22.542 17950-17950/research.sg.edu.edapp I/System.out: 000002,201,com.instagram.android,2017-09-17 10:18:15.837,97,2017-09-17 11:47:22.349
+09-17 11:47:22.542 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.325490206480026,0.314215445909166,0.326
+09-17 11:47:22.543 17950-17950/research.sg.edu.edapp I/System.out: 000002,202,com.instagram.android,2017-09-17 10:18:16.677,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.543 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.26274511218071,0.111298270281249,0.093
+09-17 11:47:22.544 17950-17950/research.sg.edu.edapp I/System.out: 000002,203,com.instagram.android,2017-09-17 10:18:17.169,114,2017-09-17 11:47:22.349
+09-17 11:47:22.544 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.407843172550201,0.0753443347740676,0.343
+09-17 11:47:22.546 17950-17950/research.sg.edu.edapp I/System.out: 000002,204,com.instagram.android,2017-09-17 10:18:18.436,-2,2017-09-17 11:47:22.349
+09-17 11:47:22.546 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.360784322023392,0.0,0.037
+09-17 11:47:22.547 17950-17950/research.sg.edu.edapp I/System.out: 000002,205,com.instagram.android,2017-09-17 10:18:19.084,35,2017-09-17 11:47:22.349
+09-17 11:47:22.547 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.411764740943909,0.21746566472212,0.601
+09-17 11:47:22.548 17950-17950/research.sg.edu.edapp I/System.out: 000002,206,com.instagram.android,2017-09-17 10:18:20.050,-2,2017-09-17 11:47:22.349
+09-17 11:47:22.548 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.352941185235977,0.112259903905296,0.102
+09-17 11:47:22.549 17950-17950/research.sg.edu.edapp I/System.out: 000002,207,com.instagram.android,2017-09-17 10:18:23.095,32,2017-09-17 11:47:22.349
+09-17 11:47:22.549 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.486274540424347,0.128755324624579,0.126
+09-17 11:47:22.550 17950-17950/research.sg.edu.edapp I/System.out: 000002,208,com.instagram.android,2017-09-17 10:18:25.829,-2,2017-09-17 11:47:22.349
+09-17 11:47:22.551 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.294117659330368,0.182876692707634,0.12
+09-17 11:47:22.552 17950-17950/research.sg.edu.edapp I/System.out: 000002,209,com.instagram.android,2017-09-17 10:18:27.490,35,2017-09-17 11:47:22.349
+09-17 11:47:22.552 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.341176480054855,0.106694455839916,0.625
+09-17 11:47:22.553 17950-17950/research.sg.edu.edapp I/System.out: 000002,210,com.instagram.android,2017-09-17 10:18:28.012,49,2017-09-17 11:47:22.349
+09-17 11:47:22.553 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.258823543787003,0.0133940724911613,0.457
+09-17 11:47:22.554 17950-17950/research.sg.edu.edapp I/System.out: 000002,211,com.instagram.android,2017-09-17 10:18:29.038,-2,2017-09-17 11:47:22.349
+09-17 11:47:22.554 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.337254911661148,0.00225870446322379,0.066
+09-17 11:47:22.555 17950-17950/research.sg.edu.edapp I/System.out: 000002,212,com.instagram.android,2017-09-17 10:18:29.873,32,2017-09-17 11:47:22.349
+09-17 11:47:22.555 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.447058856487274,0.407706764600426,0.165
+09-17 11:47:22.557 17950-17950/research.sg.edu.edapp I/System.out: 000002,213,com.instagram.android,2017-09-17 10:18:31.180,-1,2017-09-17 11:47:22.349
+09-17 11:47:22.557 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.309803932905197,0.0884641878033128,0.1
+09-17 11:47:22.558 17950-17950/research.sg.edu.edapp I/System.out: 000002,214,com.instagram.android,2017-09-17 10:18:31.480,105,2017-09-17 11:47:22.349
+09-17 11:47:22.558 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.372549027204514,0.122865644375653,0.322
+09-17 11:47:22.559 17950-17950/research.sg.edu.edapp I/System.out: 000002,215,com.instagram.android,2017-09-17 10:18:31.765,32,2017-09-17 11:47:22.349
+09-17 11:47:22.559 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.39607846736908,0.0235430323540252,0.014
+09-17 11:47:22.560 17950-17950/research.sg.edu.edapp I/System.out: 000002,216,com.instagram.android,2017-09-17 10:18:34.554,102,2017-09-17 11:47:22.349
+09-17 11:47:22.561 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.447058856487274,97289.0164480127,1.729
+09-17 11:47:22.562 17950-17950/research.sg.edu.edapp I/System.out: 000002,217,com.instagram.android,2017-09-17 10:18:38.072,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.562 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,97289.0164480127,0.258
+09-17 11:47:22.563 17950-17950/research.sg.edu.edapp I/System.out: 000002,218,com.instagram.android,2017-09-17 10:18:38.349,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.563 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.333333343267441,0.0,0.218
+09-17 11:47:22.564 17950-17950/research.sg.edu.edapp I/System.out: 000002,219,com.instagram.android,2017-09-17 10:18:38.577,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.564 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.352941185235977,0.0280302150477769,0.248
+09-17 11:47:22.565 17950-17950/research.sg.edu.edapp I/System.out: 000002,220,com.instagram.android,2017-09-17 10:18:38.835,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.565 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.407843172550201,0.087467789834288,0.209
+09-17 11:47:22.566 17950-17950/research.sg.edu.edapp I/System.out: 000002,221,com.instagram.android,2017-09-17 10:18:39.052,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.567 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.431372582912445,0.00513754510883223,0.22
+09-17 11:47:22.568 17950-17950/research.sg.edu.edapp I/System.out: 000002,222,com.instagram.android,2017-09-17 10:18:39.281,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.568 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.443137288093567,0.0,0.218
+09-17 11:47:22.569 17950-17950/research.sg.edu.edapp I/System.out: 000002,223,com.instagram.android,2017-09-17 10:18:39.508,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.569 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,0.0024686358611556,0.22
+09-17 11:47:22.570 17950-17950/research.sg.edu.edapp I/System.out: 000002,224,com.instagram.android,2017-09-17 10:18:42.357,100,2017-09-17 11:47:22.349
+09-17 11:47:22.570 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.901960849761963,127809.328582859,1.73
+09-17 11:47:22.571 17950-17950/research.sg.edu.edapp I/System.out: 000002,225,com.instagram.android,2017-09-17 10:18:48.371,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.571 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,127809.328582859,0.252
+09-17 11:47:22.572 17950-17950/research.sg.edu.edapp I/System.out: 000002,226,com.instagram.android,2017-09-17 10:18:48.636,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.572 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.298039227724075,0.00221018603388535,0.218
+09-17 11:47:22.573 17950-17950/research.sg.edu.edapp I/System.out: 000002,227,com.instagram.android,2017-09-17 10:18:48.864,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.573 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.301960796117783,0.00390925423573141,0.218
+09-17 11:47:22.575 17950-17950/research.sg.edu.edapp I/System.out: 000002,228,com.instagram.android,2017-09-17 10:18:49.092,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.575 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.321568638086319,0.0,0.219
+09-17 11:47:22.576 17950-17950/research.sg.edu.edapp I/System.out: 000002,229,com.instagram.android,2017-09-17 10:18:49.320,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.576 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.34901961684227,0.0,0.224
+09-17 11:47:22.577 17950-17950/research.sg.edu.edapp I/System.out: 000002,230,com.instagram.android,2017-09-17 10:18:49.553,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.577 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.317647069692612,0.0551618462735725,0.251
+09-17 11:47:22.578 17950-17950/research.sg.edu.edapp I/System.out: 000002,231,com.instagram.android,2017-09-17 10:18:54.002,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.578 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.258823543787003,0.0860739704238021,0.331
+09-17 11:47:22.580 17950-17950/research.sg.edu.edapp I/System.out: 000002,232,com.instagram.android,2017-09-17 10:18:54.342,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.580 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.223529428243637,0.0748417880462498,0.221
+09-17 11:47:22.581 17950-17950/research.sg.edu.edapp I/System.out: 000002,233,com.instagram.android,2017-09-17 10:18:54.623,32,2017-09-17 11:47:22.349
+09-17 11:47:22.581 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.686274528503418,3.13879012649138,0.055
+09-17 11:47:22.582 17950-17950/research.sg.edu.edapp I/System.out: 000002,234,com.instagram.android,2017-09-17 10:19:01.299,102,2017-09-17 11:47:22.349
+09-17 11:47:22.582 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.870588302612305,190140.960060121,2.441
+09-17 11:47:22.583 17950-17950/research.sg.edu.edapp I/System.out: 000002,235,com.instagram.android,2017-09-17 10:19:02.481,-5,2017-09-17 11:47:22.349
+09-17 11:47:22.583 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.0,190140.960060121,0.239
+09-17 11:47:22.584 17950-17950/research.sg.edu.edapp I/System.out: 000002,236,com.instagram.android,2017-09-17 10:19:05.136,102,2017-09-17 11:47:22.349
+09-17 11:47:22.584 17950-17950/research.sg.edu.edapp I/System.out: PVD: 0.670588284730911,131393.842265464,2.101
+09-17 11:47:22.613 17950-17950/research.sg.edu.edapp I/System.out: Number of deleted entries:236
+09-17 11:47:22.614 17950-17950/research.sg.edu.edapp I/System.out: [MoodRecorder]: ExtractFeaturesService is running
+09-17 11:47:22.652 17950-17958/research.sg.edu.edapp I/System: FinalizerDaemon: finalize objects = 419
+09-17 11:47:22.665 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@b8fb847 className=research.sg.edu.edapp.ExtractFeaturesService packageName=research.sg.edu.edapp intent=null}
+09-17 11:47:22.667 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@b8fb847 className=research.sg.edu.edapp.ExtractFeaturesService packageName=research.sg.edu.edapp intent=null}
+09-17 11:47:22.667 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.ExtractFeaturesService@4414874, flags=0, startId=1
+09-17 11:47:22.667 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@b8fb847 startId=1 args=Intent { cmp=research.sg.edu.edapp/.ExtractFeaturesService (has extras) }}
+09-17 11:47:22.668 17950-17950/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onPause +
+09-17 11:47:22.669 17950-17950/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onPause -
+09-17 11:47:22.669 17950-17950/research.sg.edu.edapp D/ActivityThread: ACT-AM_ON_PAUSE_CALLED ActivityRecord{c90913e token=android.os.BinderProxy@9c2eb9f {research.sg.edu.edapp/research.sg.edu.edapp.MoodRecorder}}
+09-17 11:47:22.679 17950-17950/research.sg.edu.edapp D/ActivityThread: ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@9c2eb9f
+09-17 11:47:22.685 17950-26964/research.sg.edu.edapp I/System.out: Tap File Name : 867802027775635_000001_Tap_Label.txt
+09-17 11:47:22.685 17950-26964/research.sg.edu.edapp I/System.out: Tap File : /storage/emulated/0/AffectSense/DataFiles/Tap_Files/867802027775635_000001_Tap_Label.txt
+09-17 11:47:22.720 17950-26964/research.sg.edu.edapp I/System.out: [Reading List Again]
+09-17 11:47:22.831 17950-17997/research.sg.edu.edapp D/Surface: Surface::disconnect(this=0x7fab820c00,api=1)
+09-17 11:47:22.833 17950-17997/research.sg.edu.edapp D/GraphicBuffer: unregister, handle(0x7f94f11dc0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+09-17 11:47:22.833 17950-17997/research.sg.edu.edapp I/[MALI][Gralloc]: [-]r_hnd(0x7f94f11dc0), client(44), share_fd(38)
+09-17 11:47:22.834 17950-17997/research.sg.edu.edapp D/GraphicBuffer: unregister, handle(0x7f8e3622c0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+09-17 11:47:22.834 17950-17997/research.sg.edu.edapp I/[MALI][Gralloc]: [-]r_hnd(0x7f8e3622c0), client(44), share_fd(50)
+09-17 11:47:22.834 17950-17997/research.sg.edu.edapp D/GraphicBuffer: unregister, handle(0x7f8e362680) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+09-17 11:47:22.835 17950-17997/research.sg.edu.edapp I/[MALI][Gralloc]: [-]r_hnd(0x7f8e362680), client(44), share_fd(52)
+09-17 11:47:22.835 17950-17997/research.sg.edu.edapp D/GraphicBuffer: unregister, handle(0x7f8e41fb20) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+09-17 11:47:22.836 17950-17997/research.sg.edu.edapp I/[MALI][Gralloc]: [-]r_hnd(0x7f8e41fb20), client(44), share_fd(53)
+09-17 11:47:22.836 17950-17997/research.sg.edu.edapp D/Surface: Surface::disconnect(this=0x7fab820c00,api=1)
+09-17 11:47:22.836 17950-17997/research.sg.edu.edapp D/OpenGLRenderer: endAllStagingAnimators on 0x7f93972500 (RippleDrawable @efb4b57) with handle 0x7f8e3e0820
+09-17 11:47:22.960 17950-26964/research.sg.edu.edapp W/art: Failed to open zip archive '/system/framework/prcui-config.jar': I/O Error
+09-17 11:47:23.053 17950-26964/research.sg.edu.edapp D/OpenSSLLib: OpensslErr:Module:12(116:176); file:external/boringssl/src/crypto/asn1/asn1_lib.c ;Line:186;Function:ASN1_get_object
+09-17 11:47:23.221 17950-26964/research.sg.edu.edapp I/System.out: Feature Entry 0:0.458970,0.313691,107,46.814991,14.953271,28.971962,com.twitter.android,1,0.383622,6809.095215,59044024.000000
+09-17 11:47:23.379 17950-26964/research.sg.edu.edapp I/System.out: Feature Entry 1:0.822959,0.417474,105,80.649971,55.238094,19.047619,com.instagram.android,1,0.335087,34221.347656,215691616.000000
+09-17 11:47:23.400 17950-26964/research.sg.edu.edapp D/MPlugin: createInstance(): Begin = 7245281
+09-17 11:47:23.400 17950-26964/research.sg.edu.edapp D/MPlugin: create Instance (two parameters) with : com.mediatek.common.telephony.IOnlyOwnerSimSupport
+09-17 11:47:23.400 17950-26964/research.sg.edu.edapp D/MPlugin: Clazz exists on mapping table : false
+09-17 11:47:23.400 17950-26964/research.sg.edu.edapp E/MPlugin: Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+09-17 11:47:23.400 17950-26964/research.sg.edu.edapp D/MPlugin: createInstance(): End = 7245281
+09-17 11:47:23.406 17950-26964/research.sg.edu.edapp E/SQLiteLog: (1) table EmoFeatures has no column named mVelocity
+09-17 11:47:23.409 17950-26964/research.sg.edu.edapp E/SQLiteDatabase: Error inserting mVelocity=6809.095 AppName=com.twitter.android mPressure=0.383622 SessionId=2 mSwipeDuration=5.9044024E7 Emotion=1 SessionDur=46.81499 Rmsi=0.313691 Msi=0.45897 SplCharPer=28.971962 BackSpacePer=14.953271 TimeStamp=2017-09-17 11:47:22.349 SessionLen=107
+                                                                       android.database.sqlite.SQLiteException: table EmoFeatures has no column named mVelocity (code 1): , while compiling: INSERT INTO EmoFeatures(mVelocity,AppName,mPressure,SessionId,mSwipeDuration,Emotion,SessionDur,Rmsi,Msi,SplCharPer,BackSpacePer,TimeStamp,SessionLen) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+                                                                           at android.database.sqlite.SQLiteConnection.nativePrepareStatement(Native Method)
+                                                                           at android.database.sqlite.SQLiteConnection.acquirePreparedStatement(SQLiteConnection.java:896)
+                                                                           at android.database.sqlite.SQLiteConnection.prepare(SQLiteConnection.java:507)
+                                                                           at android.database.sqlite.SQLiteSession.prepare(SQLiteSession.java:588)
+                                                                           at android.database.sqlite.SQLiteProgram.<init>(SQLiteProgram.java:58)
+                                                                           at android.database.sqlite.SQLiteStatement.<init>(SQLiteStatement.java:31)
+                                                                           at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1499)
+                                                                           at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1371)
+                                                                           at research.sg.edu.edapp.FeaturesProvider.insert(FeaturesProvider.java:63)
+                                                                           at android.content.ContentProvider$Transport.insert(ContentProvider.java:276)
+                                                                           at android.content.ContentResolver.insert(ContentResolver.java:1280)
+                                                                           at research.sg.edu.edapp.ExtractFeaturesService.StoreFeatures(ExtractFeaturesService.java:1265)
+                                                                           at research.sg.edu.edapp.ExtractFeaturesService.CalculateITDs(ExtractFeaturesService.java:518)
+                                                                           at research.sg.edu.edapp.ExtractFeaturesService.onHandleIntent(ExtractFeaturesService.java:82)
+                                                                           at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:66)
+                                                                           at android.os.Handler.dispatchMessage(Handler.java:111)
+                                                                           at android.os.Looper.loop(Looper.java:207)
+                                                                           at android.os.HandlerThread.run(HandlerThread.java:61)
+
+
+                                                                       --------- beginning of crash
+09-17 11:47:23.410 17950-26964/research.sg.edu.edapp E/AndroidRuntime: FATAL EXCEPTION: IntentService[ExtractFeaturesService]
+                                                                       Process: research.sg.edu.edapp, PID: 17950
+                                                                       android.database.SQLException: Failed to add a record into content://research.sg.edu.edapp.FeaturesProvider/EmoFeatures
+                                                                           at research.sg.edu.edapp.FeaturesProvider.insert(FeaturesProvider.java:69)
+                                                                           at android.content.ContentProvider$Transport.insert(ContentProvider.java:276)
+                                                                           at android.content.ContentResolver.insert(ContentResolver.java:1280)
+                                                                           at research.sg.edu.edapp.ExtractFeaturesService.StoreFeatures(ExtractFeaturesService.java:1265)
+                                                                           at research.sg.edu.edapp.ExtractFeaturesService.CalculateITDs(ExtractFeaturesService.java:518)
+                                                                           at research.sg.edu.edapp.ExtractFeaturesService.onHandleIntent(ExtractFeaturesService.java:82)
+                                                                           at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:66)
+                                                                           at android.os.Handler.dispatchMessage(Handler.java:111)
+                                                                           at android.os.Looper.loop(Looper.java:207)
+                                                                           at android.os.HandlerThread.run(HandlerThread.java:61)
+09-17 11:47:23.531 17950-17950/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onStop +
+09-17 11:47:23.532 17950-17950/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onStop -
+09-17 11:47:23.532 17950-17950/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onDestroy +
+09-17 11:47:23.532 17950-17950/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onDestroy -
+09-17 11:47:23.539 17950-17950/research.sg.edu.edapp D/WindowClient: Remove from mViews: com.android.internal.policy.PhoneWindow$DecorView{76073d8 V.E...... R......D 0,0-1080,1920}, this = android.view.WindowManagerGlobal@2180805
+09-17 11:47:23.540 17950-17950/research.sg.edu.edapp D/ActivityThread: ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@9c2eb9f
+09-17 11:47:23.913 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@c9ff5d7, flags=0, startId=595
+09-17 11:47:23.925 17950-17950/research.sg.edu.edapp I/System.out: Upload Data... Time Left : -7641547.0
+09-17 11:47:23.936 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@89f0156 startId=595 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 11:47:28.641 17950-17997/research.sg.edu.edapp D/OpenGLRenderer: ~CanvasContext() 0x7f94f39000
+09-17 11:47:28.941 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@c9ff5d7, flags=0, startId=596
+09-17 11:47:28.996 17950-17950/research.sg.edu.edapp I/System.out: [MasterService]: AppLoggingService is running
+09-17 11:47:29.031 17950-17950/research.sg.edu.edapp I/System.out: Upload Data... Time Left : -7636478.0
+09-17 11:47:29.045 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@89f0156 startId=596 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 11:47:29.045 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.AppLoggingService@6a1dce2, flags=0, startId=314
+09-17 11:47:29.045 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_component , value = disable
+09-17 11:47:29.045 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_lock , value = 0
+09-17 11:47:29.052 17950-17950/research.sg.edu.edapp I/System.out: [Current_app]:com.lenovo.powersetting
+09-17 11:47:29.053 17950-17950/research.sg.edu.edapp I/System.out: Current_app:com.lenovo.powersetting,Last App:research.sg.edu.edapp
+09-17 11:47:29.061 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@b6941ad startId=314 args=Intent { cmp=research.sg.edu.edapp/.AppLoggingService }}
+09-17 11:47:34.045 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@c9ff5d7, flags=0, startId=597
+09-17 11:47:34.073 17950-17950/research.sg.edu.edapp I/System.out: Upload Data... Time Left : -7631406.0
+09-17 11:47:34.124 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@89f0156 startId=597 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 11:47:39.149 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@c9ff5d7, flags=0, startId=598
+09-17 11:47:39.171 17950-17950/research.sg.edu.edapp I/System.out: [MasterService]: AppLoggingService is running
+09-17 11:47:39.227 17950-17950/research.sg.edu.edapp I/System.out: Upload Data... Time Left : -7626300.0
+09-17 11:47:39.237 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@89f0156 startId=598 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 11:47:39.237 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.AppLoggingService@6a1dce2, flags=0, startId=315
+09-17 11:47:39.237 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_component , value = disable
+09-17 11:47:39.237 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_lock , value = 0
+09-17 11:47:39.238 17950-17950/research.sg.edu.edapp I/System.out: Current_app:com.lenovo.powersetting,Last App:com.lenovo.powersetting
+09-17 11:47:39.238 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@b6941ad startId=315 args=Intent { cmp=research.sg.edu.edapp/.AppLoggingService }}
+09-17 11:47:44.243 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@c9ff5d7, flags=0, startId=599
+09-17 11:47:44.282 17950-17950/research.sg.edu.edapp I/System.out: Upload Data... Time Left : -7621197.0
+09-17 11:47:44.296 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@89f0156 startId=599 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 11:47:49.317 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@c9ff5d7, flags=0, startId=600
+09-17 11:47:49.331 17950-17950/research.sg.edu.edapp I/System.out: [MasterService]: AppLoggingService is running
+09-17 11:47:49.371 17950-17950/research.sg.edu.edapp I/System.out: Upload Data... Time Left : -7616140.0
+09-17 11:47:49.385 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@89f0156 startId=600 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 11:47:49.385 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.AppLoggingService@6a1dce2, flags=0, startId=316
+09-17 11:47:49.385 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_component , value = disable
+09-17 11:47:49.386 17950-17950/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_lock , value = 0
+09-17 11:47:49.388 17950-17950/research.sg.edu.edapp I/System.out: Current_app:com.lenovo.powersetting,Last App:com.lenovo.powersetting
+09-17 11:47:49.389 17950-17950/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@b6941ad startId=316 args=Intent { cmp=research.sg.edu.edapp/.AppLoggingService }}

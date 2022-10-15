@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/sessionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1213"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/msi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.456421"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/rmsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.456421"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/sessionLen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="223"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/backSpacePer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23.784862"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.456421"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/velocity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2280"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/swipeduration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/splCharPer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23.784862"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/sessionDur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17.955999"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="g.whatsapp.com"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/timeStamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-11-26 15:05:56.000"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/emotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

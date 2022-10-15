@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/actionPieToggleValues"
+        android:title="Toggle Y-Values"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/actionPieToggleXVals"
+        android:title="Toggle X-Values"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/actionPieSave"
+        android:title="Save to Gallery"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/actionPieToggleSpin"
+        android:title="Spin Animation"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/actionBarCToggleValues"
+        android:title="Toggle Values"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/actionBarCTogglePinch"
+        android:title="Toggle PinchZoom"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/actionBarCSave"
+        android:title="Save to Gallery"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/actionBarCHelp"
+        android:title="Description"
+        android:visible="true" />
+
+</menu>

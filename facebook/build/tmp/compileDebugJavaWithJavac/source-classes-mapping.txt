@@ -1,0 +1,621 @@
+com/facebook/login/GetTokenClient.java
+ com.facebook.login.GetTokenClient
+com/facebook/internal/CallbackManagerImpl.java
+ com.facebook.internal.CallbackManagerImpl
+ com.facebook.internal.CallbackManagerImpl$Callback
+ com.facebook.internal.CallbackManagerImpl$RequestCodeOffset
+com/facebook/GraphRequestBatch.java
+ com.facebook.GraphRequestBatch
+ com.facebook.GraphRequestBatch$Callback
+ com.facebook.GraphRequestBatch$OnProgressCallback
+com/facebook/internal/DialogFeature.java
+ com.facebook.internal.DialogFeature
+com/facebook/login/LoginBehavior.java
+ com.facebook.login.LoginBehavior
+com/facebook/login/LoginMethodHandler.java
+ com.facebook.login.LoginMethodHandler
+com/facebook/internal/ImageResponse.java
+ com.facebook.internal.ImageResponse
+com/facebook/share/internal/LikeDialog.java
+ com.facebook.share.internal.LikeDialog
+ com.facebook.share.internal.LikeDialog$1
+ com.facebook.share.internal.LikeDialog$NativeHandler
+ com.facebook.share.internal.LikeDialog$NativeHandler$1
+ com.facebook.share.internal.LikeDialog$Result
+ com.facebook.share.internal.LikeDialog$WebFallbackHandler
+com/facebook/LoggingBehavior.java
+ com.facebook.LoggingBehavior
+com/facebook/FacebookCallback.java
+ com.facebook.FacebookCallback
+com/facebook/share/model/SharePhoto.java
+ com.facebook.share.model.SharePhoto
+ com.facebook.share.model.SharePhoto$1
+ com.facebook.share.model.SharePhoto$Builder
+com/facebook/share/widget/SendButton.java
+ com.facebook.share.widget.SendButton
+ com.facebook.share.widget.SendButton$1
+com/facebook/messenger/ShareToMessengerParamsBuilder.java
+ com.facebook.messenger.ShareToMessengerParamsBuilder
+com/facebook/share/model/ShareOpenGraphValueContainer.java
+ com.facebook.share.model.ShareOpenGraphValueContainer
+ com.facebook.share.model.ShareOpenGraphValueContainer$Builder
+com/facebook/share/widget/AppInviteDialog.java
+ com.facebook.share.widget.AppInviteDialog
+ com.facebook.share.widget.AppInviteDialog$1
+ com.facebook.share.widget.AppInviteDialog$2
+ com.facebook.share.widget.AppInviteDialog$NativeHandler
+ com.facebook.share.widget.AppInviteDialog$NativeHandler$1
+ com.facebook.share.widget.AppInviteDialog$Result
+ com.facebook.share.widget.AppInviteDialog$WebFallbackHandler
+com/facebook/share/model/AppGroupCreationContent.java
+ com.facebook.share.model.AppGroupCreationContent
+ com.facebook.share.model.AppGroupCreationContent$1
+ com.facebook.share.model.AppGroupCreationContent$AppGroupPrivacy
+ com.facebook.share.model.AppGroupCreationContent$Builder
+com/facebook/FacebookAuthorizationException.java
+ com.facebook.FacebookAuthorizationException
+com/facebook/internal/FacebookDialogBase.java
+ com.facebook.internal.FacebookDialogBase
+ com.facebook.internal.FacebookDialogBase$ModeHandler
+com/facebook/internal/Mutable.java
+ com.facebook.internal.Mutable
+com/facebook/AccessTokenSource.java
+ com.facebook.AccessTokenSource
+com/facebook/share/widget/JoinAppGroupDialog.java
+ com.facebook.share.widget.JoinAppGroupDialog
+ com.facebook.share.widget.JoinAppGroupDialog$1
+ com.facebook.share.widget.JoinAppGroupDialog$2
+ com.facebook.share.widget.JoinAppGroupDialog$Result
+ com.facebook.share.widget.JoinAppGroupDialog$WebHandler
+com/facebook/internal/Logger.java
+ com.facebook.internal.Logger
+com/facebook/AccessToken.java
+ com.facebook.AccessToken
+ com.facebook.AccessToken$1
+ com.facebook.AccessToken$2
+ com.facebook.AccessToken$AccessTokenCreationCallback
+com/facebook/LegacyTokenHelper.java
+ com.facebook.LegacyTokenHelper
+com/facebook/share/internal/LikeStatusClient.java
+ com.facebook.share.internal.LikeStatusClient
+com/facebook/internal/PermissionType.java
+ com.facebook.internal.PermissionType
+com/facebook/internal/GraphUtil.java
+ com.facebook.internal.GraphUtil
+com/facebook/share/model/ShareContent.java
+ com.facebook.share.model.ShareContent
+ com.facebook.share.model.ShareContent$Builder
+com/facebook/internal/Validate.java
+ com.facebook.internal.Validate
+com/facebook/messenger/MessengerUtils.java
+ com.facebook.messenger.MessengerUtils
+com/facebook/login/DefaultAudience.java
+ com.facebook.login.DefaultAudience
+com/facebook/ProfileTracker.java
+ com.facebook.ProfileTracker
+ com.facebook.ProfileTracker$1
+ com.facebook.ProfileTracker$ProfileBroadcastReceiver
+com/facebook/FacebookDialogException.java
+ com.facebook.FacebookDialogException
+com/facebook/share/widget/ShareDialog.java
+ com.facebook.share.widget.ShareDialog
+ com.facebook.share.widget.ShareDialog$1
+ com.facebook.share.widget.ShareDialog$FeedHandler
+ com.facebook.share.widget.ShareDialog$Mode
+ com.facebook.share.widget.ShareDialog$NativeHandler
+ com.facebook.share.widget.ShareDialog$NativeHandler$1
+ com.facebook.share.widget.ShareDialog$WebShareHandler
+com/facebook/internal/FacebookDialogFragment.java
+ com.facebook.internal.FacebookDialogFragment
+ com.facebook.internal.FacebookDialogFragment$1
+ com.facebook.internal.FacebookDialogFragment$2
+com/facebook/internal/WebDialog.java
+ com.facebook.internal.WebDialog
+ com.facebook.internal.WebDialog$1
+ com.facebook.internal.WebDialog$2
+ com.facebook.internal.WebDialog$3
+ com.facebook.internal.WebDialog$4
+ com.facebook.internal.WebDialog$Builder
+ com.facebook.internal.WebDialog$DialogWebViewClient
+ com.facebook.internal.WebDialog$OnCompleteListener
+com/facebook/login/widget/LoginButton.java
+ com.facebook.login.widget.LoginButton
+ com.facebook.login.widget.LoginButton$1
+ com.facebook.login.widget.LoginButton$1$1
+ com.facebook.login.widget.LoginButton$2
+ com.facebook.login.widget.LoginButton$3
+ com.facebook.login.widget.LoginButton$LoginButtonProperties
+ com.facebook.login.widget.LoginButton$LoginClickListener
+ com.facebook.login.widget.LoginButton$LoginClickListener$1
+ com.facebook.login.widget.LoginButton$ToolTipMode
+com/facebook/internal/AppEventsLoggerUtility.java
+ com.facebook.internal.AppEventsLoggerUtility
+ com.facebook.internal.AppEventsLoggerUtility$1
+ com.facebook.internal.AppEventsLoggerUtility$GraphAPIActivityType
+com/facebook/share/widget/ShareButtonBase.java
+ com.facebook.share.widget.ShareButtonBase
+com/facebook/internal/FileLruCache.java
+ com.facebook.internal.FileLruCache
+ com.facebook.internal.FileLruCache$1
+ com.facebook.internal.FileLruCache$2
+ com.facebook.internal.FileLruCache$3
+ com.facebook.internal.FileLruCache$BufferFile
+ com.facebook.internal.FileLruCache$BufferFile$1
+ com.facebook.internal.FileLruCache$BufferFile$2
+ com.facebook.internal.FileLruCache$CloseCallbackOutputStream
+ com.facebook.internal.FileLruCache$CopyingInputStream
+ com.facebook.internal.FileLruCache$Limits
+ com.facebook.internal.FileLruCache$ModifiedFile
+ com.facebook.internal.FileLruCache$StreamCloseCallback
+ com.facebook.internal.FileLruCache$StreamHeader
+com/facebook/FacebookDialog.java
+ com.facebook.FacebookDialog
+com/facebook/internal/AttributionIdentifiers.java
+ com.facebook.internal.AttributionIdentifiers
+com/facebook/internal/ServerProtocol.java
+ com.facebook.internal.ServerProtocol
+com/facebook/login/GetTokenLoginMethodHandler.java
+ com.facebook.login.GetTokenLoginMethodHandler
+ com.facebook.login.GetTokenLoginMethodHandler$1
+ com.facebook.login.GetTokenLoginMethodHandler$2
+ com.facebook.login.GetTokenLoginMethodHandler$3
+com/facebook/internal/ImageRequest.java
+ com.facebook.internal.ImageRequest
+ com.facebook.internal.ImageRequest$1
+ com.facebook.internal.ImageRequest$Builder
+ com.facebook.internal.ImageRequest$Callback
+com/facebook/share/model/AppInviteContent.java
+ com.facebook.share.model.AppInviteContent
+ com.facebook.share.model.AppInviteContent$1
+ com.facebook.share.model.AppInviteContent$Builder
+com/facebook/internal/LoginAuthorizationType.java
+ com.facebook.internal.LoginAuthorizationType
+com/facebook/login/LoginLogger.java
+ com.facebook.login.LoginLogger
+com/facebook/appevents/AppEventsLogger.java
+ com.facebook.appevents.AppEventsLogger
+ com.facebook.appevents.AppEventsLogger$1
+ com.facebook.appevents.AppEventsLogger$2
+ com.facebook.appevents.AppEventsLogger$3
+ com.facebook.appevents.AppEventsLogger$4
+ com.facebook.appevents.AppEventsLogger$5
+ com.facebook.appevents.AppEventsLogger$6
+ com.facebook.appevents.AppEventsLogger$7
+ com.facebook.appevents.AppEventsLogger$AccessTokenAppIdPair
+ com.facebook.appevents.AppEventsLogger$AccessTokenAppIdPair$SerializationProxyV1
+ com.facebook.appevents.AppEventsLogger$AppEvent
+ com.facebook.appevents.AppEventsLogger$AppEvent$SerializationProxyV1
+ com.facebook.appevents.AppEventsLogger$FlushBehavior
+ com.facebook.appevents.AppEventsLogger$FlushReason
+ com.facebook.appevents.AppEventsLogger$FlushResult
+ com.facebook.appevents.AppEventsLogger$FlushStatistics
+ com.facebook.appevents.AppEventsLogger$PersistedAppSessionInfo
+ com.facebook.appevents.AppEventsLogger$PersistedAppSessionInfo$1
+ com.facebook.appevents.AppEventsLogger$PersistedEvents
+ com.facebook.appevents.AppEventsLogger$SessionEventsState
+com/facebook/share/ShareBuilder.java
+ com.facebook.share.ShareBuilder
+com/facebook/share/widget/GameRequestDialog.java
+ com.facebook.share.widget.GameRequestDialog
+ com.facebook.share.widget.GameRequestDialog$1
+ com.facebook.share.widget.GameRequestDialog$2
+ com.facebook.share.widget.GameRequestDialog$Result
+ com.facebook.share.widget.GameRequestDialog$WebHandler
+com/facebook/share/model/ShareVideoContent.java
+ com.facebook.share.model.ShareVideoContent
+ com.facebook.share.model.ShareVideoContent$1
+ com.facebook.share.model.ShareVideoContent$Builder
+com/facebook/share/widget/ShareButton.java
+ com.facebook.share.widget.ShareButton
+ com.facebook.share.widget.ShareButton$1
+com/facebook/applinks/AppLinkData.java
+ com.facebook.applinks.AppLinkData
+ com.facebook.applinks.AppLinkData$1
+ com.facebook.applinks.AppLinkData$CompletionHandler
+com/facebook/AccessTokenCache.java
+ com.facebook.AccessTokenCache
+ com.facebook.AccessTokenCache$SharedPreferencesTokenCachingStrategyFactory
+com/facebook/FacebookGraphResponseException.java
+ com.facebook.FacebookGraphResponseException
+com/facebook/internal/WorkQueue.java
+ com.facebook.internal.WorkQueue
+ com.facebook.internal.WorkQueue$1
+ com.facebook.internal.WorkQueue$WorkItem
+ com.facebook.internal.WorkQueue$WorkNode
+com/facebook/internal/JsonUtil.java
+ com.facebook.internal.JsonUtil
+ com.facebook.internal.JsonUtil$JSONObjectEntry
+com/facebook/share/internal/WebDialogParameters.java
+ com.facebook.share.internal.WebDialogParameters
+com/facebook/internal/AppCall.java
+ com.facebook.internal.AppCall
+com/facebook/FacebookOperationCanceledException.java
+ com.facebook.FacebookOperationCanceledException
+com/facebook/GraphRequestAsyncTask.java
+ com.facebook.GraphRequestAsyncTask
+com/facebook/internal/BundleJSONConverter.java
+ com.facebook.internal.BundleJSONConverter
+ com.facebook.internal.BundleJSONConverter$1
+ com.facebook.internal.BundleJSONConverter$2
+ com.facebook.internal.BundleJSONConverter$3
+ com.facebook.internal.BundleJSONConverter$4
+ com.facebook.internal.BundleJSONConverter$5
+ com.facebook.internal.BundleJSONConverter$6
+ com.facebook.internal.BundleJSONConverter$7
+ com.facebook.internal.BundleJSONConverter$Setter
+com/facebook/login/LoginManager.java
+ com.facebook.login.LoginManager
+ com.facebook.login.LoginManager$1
+ com.facebook.login.LoginManager$2
+ com.facebook.login.LoginManager$3
+ com.facebook.login.LoginManager$ActivityStartActivityDelegate
+ com.facebook.login.LoginManager$FragmentStartActivityDelegate
+com/facebook/login/StartActivityDelegate.java
+ com.facebook.login.StartActivityDelegate
+com/facebook/internal/DialogPresenter.java
+ com.facebook.internal.DialogPresenter
+ com.facebook.internal.DialogPresenter$ParameterProvider
+com/facebook/share/model/ShareOpenGraphContent.java
+ com.facebook.share.model.ShareOpenGraphContent
+ com.facebook.share.model.ShareOpenGraphContent$1
+ com.facebook.share.model.ShareOpenGraphContent$Builder
+com/facebook/TestUserManager.java
+ com.facebook.TestUserManager
+ com.facebook.TestUserManager$Mode
+com/facebook/RequestOutputStream.java
+ com.facebook.RequestOutputStream
+com/facebook/share/widget/MessageDialog.java
+ com.facebook.share.widget.MessageDialog
+ com.facebook.share.widget.MessageDialog$1
+ com.facebook.share.widget.MessageDialog$NativeHandler
+ com.facebook.share.widget.MessageDialog$NativeHandler$1
+com/facebook/internal/FacebookWebFallbackDialog.java
+ com.facebook.internal.FacebookWebFallbackDialog
+ com.facebook.internal.FacebookWebFallbackDialog$1
+com/facebook/internal/FacebookRequestErrorClassification.java
+ com.facebook.internal.FacebookRequestErrorClassification
+ com.facebook.internal.FacebookRequestErrorClassification$1
+ com.facebook.internal.FacebookRequestErrorClassification$2
+ com.facebook.internal.FacebookRequestErrorClassification$3
+com/facebook/share/model/SharePhotoContent.java
+ com.facebook.share.model.SharePhotoContent
+ com.facebook.share.model.SharePhotoContent$1
+ com.facebook.share.model.SharePhotoContent$Builder
+com/facebook/BuildConfig.java
+ com.facebook.BuildConfig
+com/facebook/share/internal/LikeContent.java
+ com.facebook.share.internal.LikeContent
+ com.facebook.share.internal.LikeContent$1
+ com.facebook.share.internal.LikeContent$Builder
+com/facebook/share/internal/MessageDialogFeature.java
+ com.facebook.share.internal.MessageDialogFeature
+com/facebook/FacebookRequestError.java
+ com.facebook.FacebookRequestError
+ com.facebook.FacebookRequestError$1
+ com.facebook.FacebookRequestError$Category
+ com.facebook.FacebookRequestError$Range
+com/facebook/share/model/GameRequestContent.java
+ com.facebook.share.model.GameRequestContent
+ com.facebook.share.model.GameRequestContent$1
+ com.facebook.share.model.GameRequestContent$ActionType
+ com.facebook.share.model.GameRequestContent$Builder
+ com.facebook.share.model.GameRequestContent$Filters
+com/facebook/share/internal/ShareContentValidation.java
+ com.facebook.share.internal.ShareContentValidation
+ com.facebook.share.internal.ShareContentValidation$1
+ com.facebook.share.internal.ShareContentValidation$ApiValidator
+ com.facebook.share.internal.ShareContentValidation$Validator
+ com.facebook.share.internal.ShareContentValidation$WebShareValidator
+com/facebook/share/model/ShareVideo.java
+ com.facebook.share.model.ShareVideo
+ com.facebook.share.model.ShareVideo$1
+ com.facebook.share.model.ShareVideo$Builder
+com/facebook/share/internal/LikeDialogFeature.java
+ com.facebook.share.internal.LikeDialogFeature
+com/facebook/internal/NativeAppCallAttachmentStore.java
+ com.facebook.internal.NativeAppCallAttachmentStore
+ com.facebook.internal.NativeAppCallAttachmentStore$1
+ com.facebook.internal.NativeAppCallAttachmentStore$Attachment
+com/facebook/FacebookSdkVersion.java
+ com.facebook.FacebookSdkVersion
+com/facebook/FacebookServiceException.java
+ com.facebook.FacebookServiceException
+com/facebook/ProgressNoopOutputStream.java
+ com.facebook.ProgressNoopOutputStream
+com/facebook/share/internal/LikeBoxCountView.java
+ com.facebook.share.internal.LikeBoxCountView
+ com.facebook.share.internal.LikeBoxCountView$1
+ com.facebook.share.internal.LikeBoxCountView$LikeBoxCountViewCaretPosition
+com/facebook/share/internal/AppInviteDialogFeature.java
+ com.facebook.share.internal.AppInviteDialogFeature
+com/facebook/login/KatanaProxyLoginMethodHandler.java
+ com.facebook.login.KatanaProxyLoginMethodHandler
+ com.facebook.login.KatanaProxyLoginMethodHandler$1
+com/facebook/login/LoginClient.java
+ com.facebook.login.LoginClient
+ com.facebook.login.LoginClient$1
+ com.facebook.login.LoginClient$BackgroundProcessingListener
+ com.facebook.login.LoginClient$OnCompletedListener
+ com.facebook.login.LoginClient$PermissionsPair
+ com.facebook.login.LoginClient$Request
+ com.facebook.login.LoginClient$Request$1
+ com.facebook.login.LoginClient$Result
+ com.facebook.login.LoginClient$Result$1
+ com.facebook.login.LoginClient$Result$Code
+com/facebook/messenger/MessengerThreadParams.java
+ com.facebook.messenger.MessengerThreadParams
+ com.facebook.messenger.MessengerThreadParams$Origin
+com/facebook/share/internal/LegacyNativeDialogParameters.java
+ com.facebook.share.internal.LegacyNativeDialogParameters
+com/facebook/applinks/FacebookAppLinkResolver.java
+ com.facebook.applinks.FacebookAppLinkResolver
+ com.facebook.applinks.FacebookAppLinkResolver$1
+ com.facebook.applinks.FacebookAppLinkResolver$2
+com/facebook/FacebookSdk.java
+ com.facebook.FacebookSdk
+ com.facebook.FacebookSdk$1
+ com.facebook.FacebookSdk$2
+ com.facebook.FacebookSdk$3
+com/facebook/share/internal/ShareDialogFeature.java
+ com.facebook.share.internal.ShareDialogFeature
+com/facebook/internal/ProfileInformationCache.java
+ com.facebook.internal.ProfileInformationCache
+com/facebook/internal/package-info.java
+ com.facebook.internal.package-info
+com/facebook/share/Sharer.java
+ com.facebook.share.Sharer
+ com.facebook.share.Sharer$Result
+com/facebook/share/model/ShareModelBuilder.java
+ com.facebook.share.model.ShareModelBuilder
+com/facebook/login/LoginFragment.java
+ com.facebook.login.LoginFragment
+ com.facebook.login.LoginFragment$1
+ com.facebook.login.LoginFragment$2
+com/facebook/internal/ImageDownloader.java
+ com.facebook.internal.ImageDownloader
+ com.facebook.internal.ImageDownloader$1
+ com.facebook.internal.ImageDownloader$CacheReadWorkItem
+ com.facebook.internal.ImageDownloader$DownloadImageWorkItem
+ com.facebook.internal.ImageDownloader$DownloaderContext
+ com.facebook.internal.ImageDownloader$RequestKey
+com/facebook/share/internal/ShareInternalUtility.java
+ com.facebook.share.internal.ShareInternalUtility
+ com.facebook.share.internal.ShareInternalUtility$1
+ com.facebook.share.internal.ShareInternalUtility$2
+ com.facebook.share.internal.ShareInternalUtility$3
+ com.facebook.share.internal.ShareInternalUtility$4
+ com.facebook.share.internal.ShareInternalUtility$5
+ com.facebook.share.internal.ShareInternalUtility$6
+ com.facebook.share.internal.ShareInternalUtility$7
+com/facebook/internal/ImageResponseCache.java
+ com.facebook.internal.ImageResponseCache
+ com.facebook.internal.ImageResponseCache$BufferedHttpInputStream
+com/facebook/share/internal/NativeDialogParameters.java
+ com.facebook.share.internal.NativeDialogParameters
+com/facebook/share/internal/OpenGraphJSONUtility.java
+ com.facebook.share.internal.OpenGraphJSONUtility
+ com.facebook.share.internal.OpenGraphJSONUtility$PhotoJSONProcessor
+com/facebook/HttpMethod.java
+ com.facebook.HttpMethod
+com/facebook/RequestProgress.java
+ com.facebook.RequestProgress
+ com.facebook.RequestProgress$1
+com/facebook/CallbackManager.java
+ com.facebook.CallbackManager
+ com.facebook.CallbackManager$Factory
+com/facebook/FacebookButtonBase.java
+ com.facebook.FacebookButtonBase
+ com.facebook.FacebookButtonBase$1
+com/facebook/FacebookException.java
+ com.facebook.FacebookException
+com/facebook/AccessTokenTracker.java
+ com.facebook.AccessTokenTracker
+ com.facebook.AccessTokenTracker$1
+ com.facebook.AccessTokenTracker$CurrentAccessTokenBroadcastReceiver
+com/facebook/ProgressOutputStream.java
+ com.facebook.ProgressOutputStream
+ com.facebook.ProgressOutputStream$1
+com/facebook/share/internal/ShareConstants.java
+ com.facebook.share.internal.ShareConstants
+com/facebook/internal/NativeProtocol.java
+ com.facebook.internal.NativeProtocol
+ com.facebook.internal.NativeProtocol$1
+ com.facebook.internal.NativeProtocol$KatanaAppInfo
+ com.facebook.internal.NativeProtocol$MessengerAppInfo
+ com.facebook.internal.NativeProtocol$NativeAppInfo
+ com.facebook.internal.NativeProtocol$WakizashiAppInfo
+com/facebook/GraphResponse.java
+ com.facebook.GraphResponse
+ com.facebook.GraphResponse$PagingDirection
+com/facebook/login/widget/ProfilePictureView.java
+ com.facebook.login.widget.ProfilePictureView
+ com.facebook.login.widget.ProfilePictureView$1
+ com.facebook.login.widget.ProfilePictureView$OnErrorListener
+com/facebook/share/widget/CreateAppGroupDialog.java
+ com.facebook.share.widget.CreateAppGroupDialog
+ com.facebook.share.widget.CreateAppGroupDialog$1
+ com.facebook.share.widget.CreateAppGroupDialog$2
+ com.facebook.share.widget.CreateAppGroupDialog$Result
+ com.facebook.share.widget.CreateAppGroupDialog$WebHandler
+com/facebook/share/internal/VideoUploader.java
+ com.facebook.share.internal.VideoUploader
+ com.facebook.share.internal.VideoUploader$1
+ com.facebook.share.internal.VideoUploader$FinishUploadWorkItem
+ com.facebook.share.internal.VideoUploader$FinishUploadWorkItem$1
+ com.facebook.share.internal.VideoUploader$StartUploadWorkItem
+ com.facebook.share.internal.VideoUploader$StartUploadWorkItem$1
+ com.facebook.share.internal.VideoUploader$TransferChunkWorkItem
+ com.facebook.share.internal.VideoUploader$TransferChunkWorkItem$1
+ com.facebook.share.internal.VideoUploader$UploadContext
+ com.facebook.share.internal.VideoUploader$UploadWorkItemBase
+ com.facebook.share.internal.VideoUploader$UploadWorkItemBase$1
+ com.facebook.share.internal.VideoUploader$UploadWorkItemBase$2
+com/facebook/share/model/ShareOpenGraphAction.java
+ com.facebook.share.model.ShareOpenGraphAction
+ com.facebook.share.model.ShareOpenGraphAction$1
+ com.facebook.share.model.ShareOpenGraphAction$Builder
+com/facebook/FacebookActivity.java
+ com.facebook.FacebookActivity
+com/facebook/login/LoginResult.java
+ com.facebook.login.LoginResult
+com/facebook/login/widget/ToolTipPopup.java
+ com.facebook.login.widget.ToolTipPopup
+ com.facebook.login.widget.ToolTipPopup$1
+ com.facebook.login.widget.ToolTipPopup$2
+ com.facebook.login.widget.ToolTipPopup$3
+ com.facebook.login.widget.ToolTipPopup$PopupContentView
+ com.facebook.login.widget.ToolTipPopup$Style
+com/facebook/FacebookBroadcastReceiver.java
+ com.facebook.FacebookBroadcastReceiver
+com/facebook/share/internal/GameRequestValidation.java
+ com.facebook.share.internal.GameRequestValidation
+com/facebook/internal/CollectionMapper.java
+ com.facebook.internal.CollectionMapper
+ com.facebook.internal.CollectionMapper$1
+ com.facebook.internal.CollectionMapper$2
+ com.facebook.internal.CollectionMapper$Collection
+ com.facebook.internal.CollectionMapper$OnErrorListener
+ com.facebook.internal.CollectionMapper$OnMapValueCompleteListener
+ com.facebook.internal.CollectionMapper$OnMapperCompleteListener
+ com.facebook.internal.CollectionMapper$ValueMapper
+com/facebook/share/internal/LikeButton.java
+ com.facebook.share.internal.LikeButton
+com/facebook/share/internal/ResultProcessor.java
+ com.facebook.share.internal.ResultProcessor
+com/facebook/messenger/ShareToMessengerParams.java
+ com.facebook.messenger.ShareToMessengerParams
+com/facebook/login/WebViewLoginMethodHandler.java
+ com.facebook.login.WebViewLoginMethodHandler
+ com.facebook.login.WebViewLoginMethodHandler$1
+ com.facebook.login.WebViewLoginMethodHandler$2
+ com.facebook.login.WebViewLoginMethodHandler$AuthDialogBuilder
+com/facebook/share/internal/LikeActionController.java
+ com.facebook.share.internal.LikeActionController
+ com.facebook.share.internal.LikeActionController$1
+ com.facebook.share.internal.LikeActionController$10
+ com.facebook.share.internal.LikeActionController$11
+ com.facebook.share.internal.LikeActionController$2
+ com.facebook.share.internal.LikeActionController$3
+ com.facebook.share.internal.LikeActionController$4
+ com.facebook.share.internal.LikeActionController$5
+ com.facebook.share.internal.LikeActionController$6
+ com.facebook.share.internal.LikeActionController$7
+ com.facebook.share.internal.LikeActionController$7$1
+ com.facebook.share.internal.LikeActionController$8
+ com.facebook.share.internal.LikeActionController$9
+ com.facebook.share.internal.LikeActionController$9$1
+ com.facebook.share.internal.LikeActionController$AbstractRequestWrapper
+ com.facebook.share.internal.LikeActionController$AbstractRequestWrapper$1
+ com.facebook.share.internal.LikeActionController$CreateLikeActionControllerWorkItem
+ com.facebook.share.internal.LikeActionController$CreationCallback
+ com.facebook.share.internal.LikeActionController$GetEngagementRequestWrapper
+ com.facebook.share.internal.LikeActionController$GetOGObjectIdRequestWrapper
+ com.facebook.share.internal.LikeActionController$GetOGObjectLikesRequestWrapper
+ com.facebook.share.internal.LikeActionController$GetPageIdRequestWrapper
+ com.facebook.share.internal.LikeActionController$MRUCacheWorkItem
+ com.facebook.share.internal.LikeActionController$PublishLikeRequestWrapper
+ com.facebook.share.internal.LikeActionController$PublishUnlikeRequestWrapper
+ com.facebook.share.internal.LikeActionController$RequestCompletionCallback
+ com.facebook.share.internal.LikeActionController$SerializeToDiskWorkItem
+com/facebook/internal/BoltsMeasurementEventListener.java
+ com.facebook.internal.BoltsMeasurementEventListener
+com/facebook/share/internal/OpenGraphActionDialogFeature.java
+ com.facebook.share.internal.OpenGraphActionDialogFeature
+com/facebook/internal/AnalyticsEvents.java
+ com.facebook.internal.AnalyticsEvents
+com/facebook/internal/PlatformServiceClient.java
+ com.facebook.internal.PlatformServiceClient
+ com.facebook.internal.PlatformServiceClient$1
+ com.facebook.internal.PlatformServiceClient$CompletedListener
+com/facebook/share/model/ShareModel.java
+ com.facebook.share.model.ShareModel
+com/facebook/share/model/ShareOpenGraphObject.java
+ com.facebook.share.model.ShareOpenGraphObject
+ com.facebook.share.model.ShareOpenGraphObject$1
+ com.facebook.share.model.ShareOpenGraphObject$Builder
+com/facebook/internal/UrlRedirectCache.java
+ com.facebook.internal.UrlRedirectCache
+com/facebook/share/widget/LikeView.java
+ com.facebook.share.widget.LikeView
+ com.facebook.share.widget.LikeView$1
+ com.facebook.share.widget.LikeView$2
+ com.facebook.share.widget.LikeView$AuxiliaryViewPosition
+ com.facebook.share.widget.LikeView$HorizontalAlignment
+ com.facebook.share.widget.LikeView$LikeActionControllerCreationCallback
+ com.facebook.share.widget.LikeView$LikeControllerBroadcastReceiver
+ com.facebook.share.widget.LikeView$ObjectType
+ com.facebook.share.widget.LikeView$OnErrorListener
+ com.facebook.share.widget.LikeView$Style
+com/facebook/appevents/FacebookTimeSpentData.java
+ com.facebook.appevents.FacebookTimeSpentData
+ com.facebook.appevents.FacebookTimeSpentData$1
+ com.facebook.appevents.FacebookTimeSpentData$SerializationProxyV1
+ com.facebook.appevents.FacebookTimeSpentData$SerializationProxyV2
+com/facebook/internal/Utility.java
+ com.facebook.internal.Utility
+ com.facebook.internal.Utility$1
+ com.facebook.internal.Utility$2
+ com.facebook.internal.Utility$DialogFeatureConfig
+ com.facebook.internal.Utility$FetchedAppSettings
+ com.facebook.internal.Utility$GraphMeRequestWithCacheCallback
+ com.facebook.internal.Utility$Mapper
+ com.facebook.internal.Utility$Predicate
+com/facebook/FacebookSdkNotInitializedException.java
+ com.facebook.FacebookSdkNotInitializedException
+com/facebook/ProfileCache.java
+ com.facebook.ProfileCache
+com/facebook/Profile.java
+ com.facebook.Profile
+ com.facebook.Profile$1
+ com.facebook.Profile$2
+com/facebook/appevents/AppEventsConstants.java
+ com.facebook.appevents.AppEventsConstants
+com/facebook/ProfileManager.java
+ com.facebook.ProfileManager
+com/facebook/AccessTokenManager.java
+ com.facebook.AccessTokenManager
+ com.facebook.AccessTokenManager$1
+ com.facebook.AccessTokenManager$2
+ com.facebook.AccessTokenManager$3
+ com.facebook.AccessTokenManager$4
+ com.facebook.AccessTokenManager$RefreshResult
+com/facebook/GraphRequest.java
+ com.facebook.GraphRequest
+ com.facebook.GraphRequest$1
+ com.facebook.GraphRequest$2
+ com.facebook.GraphRequest$3
+ com.facebook.GraphRequest$4
+ com.facebook.GraphRequest$5
+ com.facebook.GraphRequest$6
+ com.facebook.GraphRequest$Attachment
+ com.facebook.GraphRequest$Callback
+ com.facebook.GraphRequest$GraphJSONArrayCallback
+ com.facebook.GraphRequest$GraphJSONObjectCallback
+ com.facebook.GraphRequest$KeyValueSerializer
+ com.facebook.GraphRequest$OnProgressCallback
+ com.facebook.GraphRequest$ParcelableResourceWithMimeType
+ com.facebook.GraphRequest$ParcelableResourceWithMimeType$1
+ com.facebook.GraphRequest$Serializer
+com/facebook/share/model/ShareLinkContent.java
+ com.facebook.share.model.ShareLinkContent
+ com.facebook.share.model.ShareLinkContent$1
+ com.facebook.share.model.ShareLinkContent$Builder
+com/facebook/share/internal/OpenGraphMessageDialogFeature.java
+ com.facebook.share.internal.OpenGraphMessageDialogFeature
+com/facebook/share/ShareApi.java
+ com.facebook.share.ShareApi
+ com.facebook.share.ShareApi$1
+ com.facebook.share.ShareApi$10
+ com.facebook.share.ShareApi$11
+ com.facebook.share.ShareApi$12
+ com.facebook.share.ShareApi$2
+ com.facebook.share.ShareApi$3
+ com.facebook.share.ShareApi$4
+ com.facebook.share.ShareApi$5
+ com.facebook.share.ShareApi$5$1
+ com.facebook.share.ShareApi$6
+ com.facebook.share.ShareApi$7
+ com.facebook.share.ShareApi$8
+ com.facebook.share.ShareApi$9
+com/facebook/FacebookContentProvider.java
+ com.facebook.FacebookContentProvider

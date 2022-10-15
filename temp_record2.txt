@@ -1,0 +1,342 @@
+09-17 12:45:37.990 440-457/research.sg.edu.edapp I/System.out: [CDS][DNS] getAllByNameImpl netId = 0
+09-17 12:45:37.991 440-457/research.sg.edu.edapp D/libc-netbsd: [getaddrinfo]: hostname=172.16.2.30; servname=(null); netid=0; mark=0
+09-17 12:45:37.991 440-457/research.sg.edu.edapp D/libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+09-17 12:45:37.994 440-457/research.sg.edu.edapp I/System.out: [CDS]rx timeout:10000
+09-17 12:45:37.995 440-457/research.sg.edu.edapp I/System.out: [socket][25] connection /172.16.2.30:8080;LocalPort=41805(10000)
+09-17 12:45:37.995 440-457/research.sg.edu.edapp I/System.out: [CDS]connect[/172.16.2.30:8080] tm:10
+09-17 12:45:37.996 440-457/research.sg.edu.edapp D/Posix: [Posix_connect Debug]Process research.sg.edu.edapp :8080
+09-17 12:45:37.999 440-457/research.sg.edu.edapp I/System.out: [socket][26:41805] exception
+09-17 12:45:38.001 440-457/research.sg.edu.edapp I/System.out: [CDS][DNS] getAllByNameImpl netId = 0
+09-17 12:45:38.002 440-457/research.sg.edu.edapp D/libc-netbsd: [getaddrinfo]: hostname=graph.accountkit.com; servname=(null); netid=0; mark=0
+09-17 12:45:38.003 440-457/research.sg.edu.edapp D/libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+09-17 12:45:38.004 440-457/research.sg.edu.edapp D/libc-netbsd: [getaddrinfo]: hostname=graph.accountkit.com; servname=(null); netid=0; mark=0
+09-17 12:45:38.004 440-457/research.sg.edu.edapp D/libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+09-17 12:45:38.009 440-457/research.sg.edu.edapp D/libc-netbsd: getaddrinfo: graph.accountkit.com get result from proxy gai_error = 7
+09-17 12:45:38.010 440-457/research.sg.edu.edapp I/System.out: [CDS][DNS]Unable to resolve host "graph.accountkit.com": No address associated with hostname
+09-17 12:45:38.271 440-440/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@d04e52e, flags=0, startId=146
+09-17 12:45:38.301 440-440/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_component , value = disable
+09-17 12:45:38.301 440-440/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_lock , value = 0
+09-17 12:45:38.304 440-440/research.sg.edu.edapp I/System.out: [Current_app]:research.sg.edu.edapp
+09-17 12:45:38.304 440-440/research.sg.edu.edapp I/System.out: Last App : com.lenovo.FileBrowser && Current App : research.sg.edu.edapp
+09-17 12:45:38.306 440-440/research.sg.edu.edapp I/System.out: [MasterService]User yet to record emotion, Event-based ESM not Fired...
+09-17 12:45:38.337 440-440/research.sg.edu.edapp I/System.out: Upload Data... Time Left : 5.5896755E11
+09-17 12:45:38.347 440-440/research.sg.edu.edapp I/System.out: [MasterService]: UploadDataService is running
+09-17 12:45:38.369 440-440/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@54ba9 startId=146 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 12:45:38.369 440-440/research.sg.edu.edapp D/ActivityThread: SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@1d0965e className=research.sg.edu.edapp.UploadData packageName=research.sg.edu.edapp intent=null}
+09-17 12:45:38.371 440-448/research.sg.edu.edapp I/System: FinalizerDaemon: finalize objects = 19772
+09-17 12:45:38.382 440-440/research.sg.edu.edapp D/ActivityThread: SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@1d0965e className=research.sg.edu.edapp.UploadData packageName=research.sg.edu.edapp intent=null}
+09-17 12:45:38.382 440-440/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.UploadData@e54da3f, flags=0, startId=1
+09-17 12:45:38.384 440-440/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@1d0965e startId=1 args=Intent { cmp=research.sg.edu.edapp/.UploadData }}
+09-17 12:45:38.386 440-2492/research.sg.edu.edapp I/System.out: Connect to Internet to Upload Data
+09-17 12:45:38.388 440-440/research.sg.edu.edapp D/ActivityThread: SVC-Destroying service: research.sg.edu.edapp.UploadData@e54da3f
+09-17 12:45:38.389 440-440/research.sg.edu.edapp D/ActivityThread: SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@1d0965e
+09-17 12:45:39.183 440-440/research.sg.edu.edapp D/ViewRootImpl: doProcessInputEvents ViewRoot{1bb2711 research.sg.edu.edapp/research.sg.edu.edapp.MoodRecorder,ident = 4}
+09-17 12:45:39.184 440-440/research.sg.edu.edapp D/View: Touch up dispatch to android.support.v7.widget.AppCompatRadioButton{37ef7fa VFED..C.. ...P..ID 0,288-244,384 #7f10009f app:id/radioMood4}, event = MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=156.85477, y[0]=44.655884, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8510834, downTime=8510827, deviceId=3, source=0x1002 }
+09-17 12:45:39.188 440-440/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = sound_effects_enabled , value = 0
+09-17 12:45:39.837 440-440/research.sg.edu.edapp D/ViewRootImpl: doProcessInputEvents ViewRoot{1bb2711 research.sg.edu.edapp/research.sg.edu.edapp.MoodRecorder,ident = 4}
+09-17 12:45:39.838 440-440/research.sg.edu.edapp D/View: Touch up dispatch to android.support.v7.widget.AppCompatButton{ab499c6 VFED..C.. ...P.... 0,635-425,779 #7f1000a1 app:id/btnRecordMood}, event = MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=278.7419, y[0]=95.49451, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8511491, downTime=8511465, deviceId=3, source=0x1002 }
+09-17 12:45:39.838 440-440/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = sound_effects_enabled , value = 0
+09-17 12:45:39.839 440-440/research.sg.edu.edapp D/MPlugin: createInstance(): Begin = 8511495
+09-17 12:45:39.839 440-440/research.sg.edu.edapp D/MPlugin: create Instance (two parameters) with : com.mediatek.common.telephony.IOnlyOwnerSimSupport
+09-17 12:45:39.839 440-440/research.sg.edu.edapp D/MPlugin: Clazz exists on mapping table : false
+09-17 12:45:39.839 440-440/research.sg.edu.edapp E/MPlugin: Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+09-17 12:45:39.839 440-440/research.sg.edu.edapp D/MPlugin: createInstance(): End = 8511496
+09-17 12:45:39.860 440-440/research.sg.edu.edapp I/System.out: 000001,1,research.sg.edu.edapp,2017-09-17 12:02:54.743,104,2017-09-17 12:45:39.842
+09-17 12:45:39.860 440-440/research.sg.edu.edapp I/System.out: PVD: 0.447058856487274,0.0,0.266
+09-17 12:45:39.862 440-440/research.sg.edu.edapp I/System.out: 000001,2,research.sg.edu.edapp,2017-09-17 12:02:55.811,118,2017-09-17 12:45:39.842
+09-17 12:45:39.862 440-440/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.299
+09-17 12:45:39.864 440-440/research.sg.edu.edapp I/System.out: 000001,3,research.sg.edu.edapp,2017-09-17 12:02:57.559,53,2017-09-17 12:45:39.842
+09-17 12:45:39.864 440-440/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,1.04410621770664,0.249
+09-17 12:45:39.865 440-440/research.sg.edu.edapp I/System.out: 000001,4,com.lenovo.FileBrowser,2017-09-17 12:06:15.217,116,2017-09-17 12:45:39.842
+09-17 12:45:39.865 440-440/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.0,0.295
+09-17 12:45:39.867 440-440/research.sg.edu.edapp I/System.out: 000001,5,com.lenovo.FileBrowser,2017-09-17 12:06:15.815,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.867 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.298
+09-17 12:45:39.869 440-440/research.sg.edu.edapp I/System.out: 000001,6,com.lenovo.FileBrowser,2017-09-17 12:06:17.432,107,2017-09-17 12:45:39.842
+09-17 12:45:39.869 440-440/research.sg.edu.edapp I/System.out: PVD: 0.933333396911621,100845.690716856,1.017
+09-17 12:45:39.870 440-440/research.sg.edu.edapp I/System.out: 000001,7,com.lenovo.FileBrowser,2017-09-17 12:06:18.782,111,2017-09-17 12:45:39.842
+09-17 12:45:39.870 440-440/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,35254.5554254762,0.579
+09-17 12:45:39.874 440-440/research.sg.edu.edapp I/System.out: 000001,8,com.lenovo.FileBrowser,2017-09-17 12:06:19.934,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.874 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,35254.5554254762,0.26
+09-17 12:45:39.875 440-440/research.sg.edu.edapp I/System.out: 000001,9,com.lenovo.FileBrowser,2017-09-17 12:06:20.205,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.875 440-440/research.sg.edu.edapp I/System.out: PVD: 0.30588236451149,0.0,0.22
+09-17 12:45:39.878 440-440/research.sg.edu.edapp I/System.out: 000001,10,com.lenovo.FileBrowser,2017-09-17 12:06:20.435,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.878 440-440/research.sg.edu.edapp I/System.out: PVD: 0.30588236451149,0.0,0.223
+09-17 12:45:39.880 440-440/research.sg.edu.edapp I/System.out: 000001,11,com.lenovo.FileBrowser,2017-09-17 12:06:20.781,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.880 440-440/research.sg.edu.edapp I/System.out: PVD: 0.313725501298904,0.0,0.23
+09-17 12:45:39.881 440-440/research.sg.edu.edapp I/System.out: 000001,12,com.lenovo.FileBrowser,2017-09-17 12:06:21.842,111,2017-09-17 12:45:39.842
+09-17 12:45:39.881 440-440/research.sg.edu.edapp I/System.out: PVD: 0.764705926179886,28869.7865202919,0.625
+09-17 12:45:39.882 440-440/research.sg.edu.edapp I/System.out: 000001,13,com.lenovo.FileBrowser,2017-09-17 12:06:22.852,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.883 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,28869.7865202919,0.264
+09-17 12:45:39.885 440-440/research.sg.edu.edapp I/System.out: 000001,14,com.lenovo.FileBrowser,2017-09-17 12:06:23.396,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.885 440-440/research.sg.edu.edapp I/System.out: PVD: 0.250980406999588,0.0875533638787961,0.227
+09-17 12:45:39.887 440-440/research.sg.edu.edapp I/System.out: 000001,15,com.lenovo.FileBrowser,2017-09-17 12:06:23.888,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.887 440-440/research.sg.edu.edapp I/System.out: PVD: 0.286274522542953,0.0,0.255
+09-17 12:45:39.888 440-440/research.sg.edu.edapp I/System.out: 000001,16,com.lenovo.FileBrowser,2017-09-17 12:06:24.546,111,2017-09-17 12:45:39.842
+09-17 12:45:39.888 440-440/research.sg.edu.edapp I/System.out: PVD: 0.635294139385223,0.0,0.255
+09-17 12:45:39.889 440-440/research.sg.edu.edapp I/System.out: 000001,17,com.lenovo.FileBrowser,2017-09-17 12:06:24.837,32,2017-09-17 12:45:39.842
+09-17 12:45:39.889 440-440/research.sg.edu.edapp I/System.out: PVD: 0.486274540424347,0.0,0.052
+09-17 12:45:39.891 440-440/research.sg.edu.edapp I/System.out: 000001,18,com.lenovo.FileBrowser,2017-09-17 12:06:25.796,101,2017-09-17 12:45:39.842
+09-17 12:45:39.891 440-440/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,46586.7958722298,0.659
+09-17 12:45:39.893 440-440/research.sg.edu.edapp I/System.out: 000001,19,com.lenovo.FileBrowser,2017-09-17 12:06:27.042,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.893 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,46586.7958722298,0.251
+09-17 12:45:39.897 440-440/research.sg.edu.edapp I/System.out: 000001,20,com.lenovo.FileBrowser,2017-09-17 12:06:27.304,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.897 440-440/research.sg.edu.edapp I/System.out: PVD: 0.337254911661148,0.0,0.243
+09-17 12:45:39.898 440-440/research.sg.edu.edapp I/System.out: 000001,21,com.lenovo.FileBrowser,2017-09-17 12:06:27.560,101,2017-09-17 12:45:39.842
+09-17 12:45:39.898 440-440/research.sg.edu.edapp I/System.out: PVD: 0.627451002597809,0.0,0.213
+09-17 12:45:39.899 440-440/research.sg.edu.edapp I/System.out: 000001,22,com.lenovo.FileBrowser,2017-09-17 12:06:27.969,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.899 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.233
+09-17 12:45:39.901 440-440/research.sg.edu.edapp I/System.out: 000001,23,com.lenovo.FileBrowser,2017-09-17 12:06:28.212,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.901 440-440/research.sg.edu.edapp I/System.out: PVD: 0.30588236451149,0.0,0.225
+09-17 12:45:39.902 440-440/research.sg.edu.edapp I/System.out: 000001,24,com.lenovo.FileBrowser,2017-09-17 12:06:28.471,101,2017-09-17 12:45:39.842
+09-17 12:45:39.903 440-440/research.sg.edu.edapp I/System.out: PVD: 0.662745118141174,8.52040173933333e-05,0.247
+09-17 12:45:39.904 440-440/research.sg.edu.edapp I/System.out: 000001,25,com.lenovo.FileBrowser,2017-09-17 12:06:29.611,32,2017-09-17 12:45:39.842
+09-17 12:45:39.904 440-440/research.sg.edu.edapp I/System.out: PVD: 0.341176480054855,0.542224449768432,0.123
+09-17 12:45:39.905 440-440/research.sg.edu.edapp I/System.out: 000001,26,com.lenovo.FileBrowser,2017-09-17 12:06:30.832,116,2017-09-17 12:45:39.842
+09-17 12:45:39.905 440-440/research.sg.edu.edapp I/System.out: PVD: 0.447058856487274,121494.958429747,1.228
+09-17 12:45:39.906 440-440/research.sg.edu.edapp I/System.out: 000001,27,com.lenovo.FileBrowser,2017-09-17 12:06:33.543,46,2017-09-17 12:45:39.842
+09-17 12:45:39.906 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,121494.958429747,0.005
+09-17 12:45:39.907 440-440/research.sg.edu.edapp I/System.out: 000001,28,com.lenovo.FileBrowser,2017-09-17 12:06:34.139,32,2017-09-17 12:45:39.842
+09-17 12:45:39.907 440-440/research.sg.edu.edapp I/System.out: PVD: 0.929411828517914,0.00192691619065193,0.069
+09-17 12:45:39.908 440-440/research.sg.edu.edapp I/System.out: 000001,29,com.lenovo.FileBrowser,2017-09-17 12:06:35.942,105,2017-09-17 12:45:39.842
+09-17 12:45:39.908 440-440/research.sg.edu.edapp I/System.out: PVD: 0.419607877731323,0.0,0.296
+09-17 12:45:39.910 440-440/research.sg.edu.edapp I/System.out: 000001,30,com.lenovo.FileBrowser,2017-09-17 12:06:36.251,32,2017-09-17 12:45:39.842
+09-17 12:45:39.910 440-440/research.sg.edu.edapp I/System.out: PVD: 0.486274540424347,0.492020297384372,0.071
+09-17 12:45:39.911 440-440/research.sg.edu.edapp I/System.out: 000001,31,com.lenovo.FileBrowser,2017-09-17 12:06:37.109,110,2017-09-17 12:45:39.842
+09-17 12:45:39.911 440-440/research.sg.edu.edapp I/System.out: PVD: 0.458823561668396,79809.832961754,0.804
+09-17 12:45:39.912 440-440/research.sg.edu.edapp I/System.out: 000001,32,com.lenovo.FileBrowser,2017-09-17 12:06:41.045,101,2017-09-17 12:45:39.842
+09-17 12:45:39.912 440-440/research.sg.edu.edapp I/System.out: PVD: 0.929411828517914,32101.9549924331,0.944
+09-17 12:45:39.913 440-440/research.sg.edu.edapp I/System.out: 000001,33,com.lenovo.FileBrowser,2017-09-17 12:06:43.028,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.913 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,32101.9549924331,0.299
+09-17 12:45:39.914 440-440/research.sg.edu.edapp I/System.out: 000001,34,com.lenovo.FileBrowser,2017-09-17 12:06:43.921,101,2017-09-17 12:45:39.842
+09-17 12:45:39.914 440-440/research.sg.edu.edapp I/System.out: PVD: 0.81568631529808,8189.14598735309,0.467
+09-17 12:45:39.916 440-440/research.sg.edu.edapp I/System.out: 000001,35,com.lenovo.FileBrowser,2017-09-17 12:06:46.837,101,2017-09-17 12:45:39.842
+09-17 12:45:39.916 440-440/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,68332.8415937182,1.779
+09-17 12:45:39.917 440-440/research.sg.edu.edapp I/System.out: 000001,36,com.lenovo.FileBrowser,2017-09-17 12:06:47.825,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.917 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,68332.8415937182,0.231
+09-17 12:45:39.918 440-440/research.sg.edu.edapp I/System.out: 000001,37,com.lenovo.FileBrowser,2017-09-17 12:06:48.989,117,2017-09-17 12:45:39.842
+09-17 12:45:39.918 440-440/research.sg.edu.edapp I/System.out: PVD: 0.768627494573593,36165.4846033671,0.721
+09-17 12:45:39.919 440-440/research.sg.edu.edapp I/System.out: 000001,38,com.lenovo.FileBrowser,2017-09-17 12:06:50.463,101,2017-09-17 12:45:39.842
+09-17 12:45:39.920 440-440/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,28126.0236107102,0.704
+09-17 12:45:39.920 440-440/research.sg.edu.edapp I/System.out: 000001,39,com.lenovo.FileBrowser,2017-09-17 12:06:50.916,100,2017-09-17 12:45:39.842
+09-17 12:45:39.921 440-440/research.sg.edu.edapp I/System.out: PVD: 0.203921586275101,0.0,0.299
+09-17 12:45:39.922 440-440/research.sg.edu.edapp I/System.out: 000001,40,com.lenovo.FileBrowser,2017-09-17 12:06:51.532,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.922 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.218
+09-17 12:45:39.923 440-440/research.sg.edu.edapp I/System.out: 000001,41,com.lenovo.FileBrowser,2017-09-17 12:06:52.744,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.924 440-440/research.sg.edu.edapp I/System.out: PVD: 0.266666680574417,65.4324748499326,0.245
+09-17 12:45:39.925 440-440/research.sg.edu.edapp I/System.out: 000001,42,com.lenovo.FileBrowser,2017-09-17 12:06:53.739,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.926 440-440/research.sg.edu.edapp I/System.out: PVD: 0.247058838605881,0.0,0.244
+09-17 12:45:39.927 440-440/research.sg.edu.edapp I/System.out: 000001,43,com.lenovo.FileBrowser,2017-09-17 12:06:53.993,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.927 440-440/research.sg.edu.edapp I/System.out: PVD: 0.196078449487686,0.0,0.239
+09-17 12:45:39.928 440-440/research.sg.edu.edapp I/System.out: 000001,44,com.lenovo.FileBrowser,2017-09-17 12:06:54.243,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.928 440-440/research.sg.edu.edapp I/System.out: PVD: 0.21960785984993,0.0,0.217
+09-17 12:45:39.929 440-440/research.sg.edu.edapp I/System.out: 000001,45,com.lenovo.FileBrowser,2017-09-17 12:06:54.472,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.929 440-440/research.sg.edu.edapp I/System.out: PVD: 0.298039227724075,0.0,0.231
+09-17 12:45:39.930 440-440/research.sg.edu.edapp I/System.out: 000001,46,com.lenovo.FileBrowser,2017-09-17 12:06:54.712,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.931 440-440/research.sg.edu.edapp I/System.out: PVD: 0.286274522542953,0.0,0.214
+09-17 12:45:39.932 440-440/research.sg.edu.edapp I/System.out: 000001,47,com.lenovo.FileBrowser,2017-09-17 12:06:55.953,101,2017-09-17 12:45:39.842
+09-17 12:45:39.932 440-440/research.sg.edu.edapp I/System.out: PVD: 0.792156904935837,44191.4612211978,0.712
+09-17 12:45:39.934 440-440/research.sg.edu.edapp I/System.out: 000001,48,com.lenovo.FileBrowser,2017-09-17 12:06:58.224,103,2017-09-17 12:45:39.842
+09-17 12:45:39.934 440-440/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,144510.891847457,1.553
+09-17 12:45:39.937 440-440/research.sg.edu.edapp I/System.out: 000001,49,com.lenovo.FileBrowser,2017-09-17 12:06:59.899,121,2017-09-17 12:45:39.842
+09-17 12:45:39.937 440-440/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,89848.1804332938,1.298
+09-17 12:45:39.939 440-440/research.sg.edu.edapp I/System.out: 000001,50,com.lenovo.FileBrowser,2017-09-17 12:07:03.753,116,2017-09-17 12:45:39.842
+09-17 12:45:39.939 440-440/research.sg.edu.edapp I/System.out: PVD: 0.43921571969986,203816.599455497,1.784
+09-17 12:45:39.940 440-440/research.sg.edu.edapp I/System.out: 000001,51,com.lenovo.FileBrowser,2017-09-17 12:07:05.053,46,2017-09-17 12:45:39.842
+09-17 12:45:39.940 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,203816.599455497,0.023
+09-17 12:45:39.942 440-440/research.sg.edu.edapp I/System.out: 000001,52,com.lenovo.FileBrowser,2017-09-17 12:42:44.739,108,2017-09-17 12:45:39.842
+09-17 12:45:39.942 440-440/research.sg.edu.edapp I/System.out: PVD: 0.352941185235977,0.166084555857611,0.378
+09-17 12:45:39.944 440-440/research.sg.edu.edapp I/System.out: 000001,53,com.lenovo.FileBrowser,2017-09-17 12:42:45.332,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.944 440-440/research.sg.edu.edapp I/System.out: PVD: 0.188235312700272,0.00816015984395804,0.095
+09-17 12:45:39.946 440-440/research.sg.edu.edapp I/System.out: 000001,54,com.lenovo.FileBrowser,2017-09-17 12:42:45.970,95,2017-09-17 12:45:39.842
+09-17 12:45:39.946 440-440/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,0.166376824479654,0.048
+09-17 12:45:39.949 440-440/research.sg.edu.edapp I/System.out: 000001,55,com.lenovo.FileBrowser,2017-09-17 12:42:46.091,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.949 440-440/research.sg.edu.edapp I/System.out: PVD: 0.34901961684227,0.131606082322263,0.088
+09-17 12:45:39.951 440-440/research.sg.edu.edapp I/System.out: 000001,56,com.lenovo.FileBrowser,2017-09-17 12:42:46.901,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.951 440-440/research.sg.edu.edapp I/System.out: PVD: 0.372549027204514,0.00383482766487382,0.094
+09-17 12:45:39.953 440-440/research.sg.edu.edapp I/System.out: 000001,57,com.lenovo.FileBrowser,2017-09-17 12:42:47.284,50,2017-09-17 12:45:39.842
+09-17 12:45:39.953 440-440/research.sg.edu.edapp I/System.out: PVD: 0.30588236451149,0.0,0.494
+09-17 12:45:39.955 440-440/research.sg.edu.edapp I/System.out: 000001,58,com.lenovo.FileBrowser,2017-09-17 12:42:47.732,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.955 440-440/research.sg.edu.edapp I/System.out: PVD: 0.364705890417099,0.0,0.005
+09-17 12:45:39.958 440-440/research.sg.edu.edapp I/System.out: 000001,59,com.lenovo.FileBrowser,2017-09-17 12:42:50.133,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.958 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.294
+09-17 12:45:39.961 440-440/research.sg.edu.edapp I/System.out: 000001,60,com.lenovo.FileBrowser,2017-09-17 12:42:50.767,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.963 440-440/research.sg.edu.edapp I/System.out: PVD: 0.290196090936661,0.000870666091532722,0.229
+09-17 12:45:39.965 440-440/research.sg.edu.edapp I/System.out: 000001,61,com.lenovo.FileBrowser,2017-09-17 12:42:55.436,110,2017-09-17 12:45:39.842
+09-17 12:45:39.965 440-440/research.sg.edu.edapp I/System.out: PVD: 0.662745147943497,257897.53811455,3.235
+09-17 12:45:39.967 440-440/research.sg.edu.edapp I/System.out: 000001,62,com.lenovo.FileBrowser,2017-09-17 12:43:06.098,99,2017-09-17 12:45:39.842
+09-17 12:45:39.967 440-440/research.sg.edu.edapp I/System.out: PVD: 0.431372582912445,0.107976393996168,0.383
+09-17 12:45:39.968 440-440/research.sg.edu.edapp I/System.out: 000001,63,com.lenovo.FileBrowser,2017-09-17 12:43:06.387,121,2017-09-17 12:45:39.842
+09-17 12:45:39.968 440-440/research.sg.edu.edapp I/System.out: PVD: 0.215686291456223,0.0,0.212
+09-17 12:45:39.969 440-440/research.sg.edu.edapp I/System.out: 000001,64,com.lenovo.FileBrowser,2017-09-17 12:43:07.124,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.969 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,0.0,0.265
+09-17 12:45:39.970 440-440/research.sg.edu.edapp I/System.out: 000001,65,com.lenovo.FileBrowser,2017-09-17 12:43:07.692,116,2017-09-17 12:45:39.842
+09-17 12:45:39.970 440-440/research.sg.edu.edapp I/System.out: PVD: 0.600000038743019,99.6932124005974,0.343
+09-17 12:45:39.971 440-440/research.sg.edu.edapp I/System.out: 000001,66,com.lenovo.FileBrowser,2017-09-17 12:43:08.192,-1,2017-09-17 12:45:39.842
+09-17 12:45:39.971 440-440/research.sg.edu.edapp I/System.out: PVD: 0.26274511218071,0.0,0.094
+09-17 12:45:39.972 440-440/research.sg.edu.edapp I/System.out: 000001,67,com.lenovo.FileBrowser,2017-09-17 12:43:08.513,115,2017-09-17 12:45:39.842
+09-17 12:45:39.972 440-440/research.sg.edu.edapp I/System.out: PVD: 0.384313762187958,0.00132846323366103,0.35
+09-17 12:45:39.973 440-440/research.sg.edu.edapp I/System.out: 000001,68,com.lenovo.FileBrowser,2017-09-17 12:43:09.124,-1,2017-09-17 12:45:39.842
+09-17 12:45:39.974 440-440/research.sg.edu.edapp I/System.out: PVD: 0.235294133424759,0.19653719660357,0.093
+09-17 12:45:39.975 440-440/research.sg.edu.edapp I/System.out: 000001,69,com.lenovo.FileBrowser,2017-09-17 12:43:09.809,101,2017-09-17 12:45:39.842
+09-17 12:45:39.975 440-440/research.sg.edu.edapp I/System.out: PVD: 0.443137288093567,0.0,0.328
+09-17 12:45:39.976 440-440/research.sg.edu.edapp I/System.out: 000001,70,com.lenovo.FileBrowser,2017-09-17 12:43:10.051,110,2017-09-17 12:45:39.842
+09-17 12:45:39.976 440-440/research.sg.edu.edapp I/System.out: PVD: 0.435294151306152,0.00292531633795026,0.223
+09-17 12:45:39.977 440-440/research.sg.edu.edapp I/System.out: 000001,71,com.lenovo.FileBrowser,2017-09-17 12:43:10.281,115,2017-09-17 12:45:39.842
+09-17 12:45:39.977 440-440/research.sg.edu.edapp I/System.out: PVD: 0.364705890417099,0.00849378105791528,0.241
+09-17 12:45:39.978 440-440/research.sg.edu.edapp I/System.out: 000001,72,com.lenovo.FileBrowser,2017-09-17 12:43:10.529,101,2017-09-17 12:45:39.842
+09-17 12:45:39.978 440-440/research.sg.edu.edapp I/System.out: PVD: 0.43921571969986,0.00702729351371627,0.21
+09-17 12:45:39.979 440-440/research.sg.edu.edapp I/System.out: 000001,73,com.lenovo.FileBrowser,2017-09-17 12:43:12.107,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.979 440-440/research.sg.edu.edapp I/System.out: PVD: 0.215686291456223,0.0,0.084
+09-17 12:45:39.980 440-440/research.sg.edu.edapp I/System.out: 000001,74,com.lenovo.FileBrowser,2017-09-17 12:43:12.780,95,2017-09-17 12:45:39.842
+09-17 12:45:39.980 440-440/research.sg.edu.edapp I/System.out: PVD: 0.494117677211761,0.000667391689457813,0.103
+09-17 12:45:39.980 440-440/research.sg.edu.edapp I/System.out: 000001,75,com.lenovo.FileBrowser,2017-09-17 12:43:12.905,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.981 440-440/research.sg.edu.edapp I/System.out: PVD: 0.149019613862038,0.0,0.055
+09-17 12:45:39.981 440-440/research.sg.edu.edapp I/System.out: 000001,76,com.lenovo.FileBrowser,2017-09-17 12:43:13.502,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.981 440-440/research.sg.edu.edapp I/System.out: PVD: 0.270588248968124,0.0,0.095
+09-17 12:45:39.982 440-440/research.sg.edu.edapp I/System.out: 000001,77,com.lenovo.FileBrowser,2017-09-17 12:43:13.976,50,2017-09-17 12:45:39.842
+09-17 12:45:39.982 440-440/research.sg.edu.edapp I/System.out: PVD: 0.321568638086319,0.0130035293411248,0.517
+09-17 12:45:39.984 440-440/research.sg.edu.edapp I/System.out: 000001,78,com.lenovo.FileBrowser,2017-09-17 12:43:14.678,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.984 440-440/research.sg.edu.edapp I/System.out: PVD: 0.215686291456223,0.0,0.066
+09-17 12:45:39.985 440-440/research.sg.edu.edapp I/System.out: 000001,79,com.lenovo.FileBrowser,2017-09-17 12:43:15.857,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.985 440-440/research.sg.edu.edapp I/System.out: PVD: 0.270588248968124,0.000251197830772676,0.105
+09-17 12:45:39.993 440-440/research.sg.edu.edapp I/System.out: 000001,80,com.lenovo.FileBrowser,2017-09-17 12:43:16.722,95,2017-09-17 12:45:39.842
+09-17 12:45:39.994 440-440/research.sg.edu.edapp I/System.out: PVD: 0.490196108818054,0.123483486751445,0.068
+09-17 12:45:39.996 440-440/research.sg.edu.edapp I/System.out: 000001,81,com.lenovo.FileBrowser,2017-09-17 12:43:16.988,-2,2017-09-17 12:45:39.842
+09-17 12:45:39.996 440-440/research.sg.edu.edapp I/System.out: PVD: 0.301960796117783,0.460220398027786,0.114
+09-17 12:45:39.997 440-440/research.sg.edu.edapp I/System.out: 000001,82,com.lenovo.FileBrowser,2017-09-17 12:43:19.798,101,2017-09-17 12:45:39.842
+09-17 12:45:39.997 440-440/research.sg.edu.edapp I/System.out: PVD: 0.478431403636932,154209.436107652,1.593
+09-17 12:45:39.998 440-440/research.sg.edu.edapp I/System.out: 000001,83,com.lenovo.FileBrowser,2017-09-17 12:43:28.607,-5,2017-09-17 12:45:39.842
+09-17 12:45:39.998 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,154209.436107652,0.252
+09-17 12:45:39.999 440-440/research.sg.edu.edapp I/System.out: 000001,84,com.lenovo.FileBrowser,2017-09-17 12:43:28.868,-5,2017-09-17 12:45:39.842
+09-17 12:45:40.000 440-440/research.sg.edu.edapp I/System.out: PVD: 0.200000017881393,0.0,0.209
+09-17 12:45:40.001 440-440/research.sg.edu.edapp I/System.out: 000001,85,com.lenovo.FileBrowser,2017-09-17 12:43:29.086,-5,2017-09-17 12:45:39.842
+09-17 12:45:40.001 440-440/research.sg.edu.edapp I/System.out: PVD: 0.200000017881393,0.0,0.227
+09-17 12:45:40.002 440-440/research.sg.edu.edapp I/System.out: 000001,86,com.lenovo.FileBrowser,2017-09-17 12:43:29.322,-5,2017-09-17 12:45:39.842
+09-17 12:45:40.002 440-440/research.sg.edu.edapp I/System.out: PVD: 0.192156881093979,0.0,0.215
+09-17 12:45:40.003 440-440/research.sg.edu.edapp I/System.out: 000001,87,com.lenovo.FileBrowser,2017-09-17 12:43:29.549,108,2017-09-17 12:45:39.842
+09-17 12:45:40.004 440-440/research.sg.edu.edapp I/System.out: PVD: 0.43921571969986,0.100905982861232,0.228
+09-17 12:45:40.005 440-440/research.sg.edu.edapp I/System.out: 000001,88,com.lenovo.FileBrowser,2017-09-17 12:43:29.779,-5,2017-09-17 12:45:39.842
+09-17 12:45:40.005 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,0.100905982861232,0.227
+09-17 12:45:40.006 440-440/research.sg.edu.edapp I/System.out: 000001,89,com.lenovo.FileBrowser,2017-09-17 12:43:30.246,-5,2017-09-17 12:45:39.842
+09-17 12:45:40.006 440-440/research.sg.edu.edapp I/System.out: PVD: 0.231372565031052,0.0,0.278
+09-17 12:45:40.007 440-440/research.sg.edu.edapp I/System.out: 000001,90,com.lenovo.FileBrowser,2017-09-17 12:43:30.730,32,2017-09-17 12:45:39.842
+09-17 12:45:40.007 440-440/research.sg.edu.edapp I/System.out: PVD: 0.811764746904373,0.665886472835473,0.06
+09-17 12:45:40.008 440-440/research.sg.edu.edapp I/System.out: 000001,91,com.lenovo.FileBrowser,2017-09-17 12:43:31.105,-2,2017-09-17 12:45:39.842
+09-17 12:45:40.008 440-440/research.sg.edu.edapp I/System.out: PVD: 0.14509804546833,0.0,0.05
+09-17 12:45:40.009 440-440/research.sg.edu.edapp I/System.out: 000001,92,com.lenovo.FileBrowser,2017-09-17 12:43:31.708,50,2017-09-17 12:45:39.842
+09-17 12:45:40.009 440-440/research.sg.edu.edapp I/System.out: PVD: 0.360784322023392,0.0332518406721273,0.528
+09-17 12:45:40.010 440-440/research.sg.edu.edapp I/System.out: 000001,93,com.lenovo.FileBrowser,2017-09-17 12:43:32.173,-2,2017-09-17 12:45:39.842
+09-17 12:45:40.010 440-440/research.sg.edu.edapp I/System.out: PVD: 0.274509817361832,0.0,0.004
+09-17 12:45:40.011 440-440/research.sg.edu.edapp I/System.out: 000001,94,com.lenovo.FileBrowser,2017-09-17 12:43:32.392,32,2017-09-17 12:45:39.842
+09-17 12:45:40.011 440-440/research.sg.edu.edapp I/System.out: PVD: 0.317647069692612,0.357467648176309,0.08
+09-17 12:45:40.012 440-440/research.sg.edu.edapp I/System.out: 000001,95,com.lenovo.FileBrowser,2017-09-17 12:43:36.280,110,2017-09-17 12:45:39.842
+09-17 12:45:40.012 440-440/research.sg.edu.edapp I/System.out: PVD: 0.431372582912445,304626.392385663,3.479
+09-17 12:45:40.014 440-440/research.sg.edu.edapp I/System.out: 000001,96,com.lenovo.FileBrowser,2017-09-17 12:43:38.237,-2,2017-09-17 12:45:39.842
+09-17 12:45:40.014 440-440/research.sg.edu.edapp I/System.out: PVD: 0.243137270212173,0.0,0.086
+09-17 12:45:40.015 440-440/research.sg.edu.edapp I/System.out: 000001,97,com.lenovo.FileBrowser,2017-09-17 12:43:39.324,-2,2017-09-17 12:45:39.842
+09-17 12:45:40.015 440-440/research.sg.edu.edapp I/System.out: PVD: 0.231372565031052,0.0,0.086
+09-17 12:45:40.016 440-440/research.sg.edu.edapp I/System.out: 000001,98,com.lenovo.FileBrowser,2017-09-17 12:43:41.190,101,2017-09-17 12:45:39.842
+09-17 12:45:40.016 440-440/research.sg.edu.edapp I/System.out: PVD: 0.454901993274689,141080.282607967,1.575
+09-17 12:45:40.018 440-440/research.sg.edu.edapp I/System.out: 000001,99,com.lenovo.FileBrowser,2017-09-17 12:43:45.277,32,2017-09-17 12:45:39.842
+09-17 12:45:40.018 440-440/research.sg.edu.edapp I/System.out: PVD: 0.364705890417099,0.256380556737692,0.105
+09-17 12:45:40.019 440-440/research.sg.edu.edapp I/System.out: 000001,100,com.lenovo.FileBrowser,2017-09-17 12:43:49.154,114,2017-09-17 12:45:39.842
+09-17 12:45:40.019 440-440/research.sg.edu.edapp I/System.out: PVD: 0.870588302612305,166022.147323631,1.436
+09-17 12:45:40.020 440-440/research.sg.edu.edapp I/System.out: 000001,101,com.lenovo.FileBrowser,2017-09-17 12:43:50.308,-5,2017-09-17 12:45:39.842
+09-17 12:45:40.020 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,166022.147323631,0.239
+09-17 12:45:40.022 440-440/research.sg.edu.edapp I/System.out: 000001,102,com.lenovo.FileBrowser,2017-09-17 12:43:56.621,114,2017-09-17 12:45:39.842
+09-17 12:45:40.022 440-440/research.sg.edu.edapp I/System.out: PVD: 1.50196090340614,186968.844234878,1.439
+09-17 12:45:40.023 440-440/research.sg.edu.edapp I/System.out: 000001,103,com.lenovo.FileBrowser,2017-09-17 12:43:57.528,-5,2017-09-17 12:45:39.842
+09-17 12:45:40.023 440-440/research.sg.edu.edapp I/System.out: PVD: 0.0,186968.844234878,0.249
+09-17 12:45:40.024 440-440/research.sg.edu.edapp I/System.out: 000001,104,com.lenovo.FileBrowser,2017-09-17 12:43:57.932,101,2017-09-17 12:45:39.842
+09-17 12:45:40.024 440-440/research.sg.edu.edapp I/System.out: PVD: 0.584313750267029,0.122490895140167,0.359
+09-17 12:45:40.025 440-440/research.sg.edu.edapp I/System.out: 000001,105,com.lenovo.FileBrowser,2017-09-17 12:43:58.186,114,2017-09-17 12:45:39.842
+09-17 12:45:40.025 440-440/research.sg.edu.edapp I/System.out: PVD: 0.423529446125031,0.542459903746729,0.247
+09-17 12:45:40.026 440-440/research.sg.edu.edapp I/System.out: 000001,106,com.lenovo.FileBrowser,2017-09-17 12:43:58.423,114,2017-09-17 12:45:39.842
+09-17 12:45:40.027 440-440/research.sg.edu.edapp I/System.out: PVD: 0.419607877731323,0.0150444561161677,0.264
+09-17 12:45:40.028 440-440/research.sg.edu.edapp I/System.out: 000001,107,com.lenovo.FileBrowser,2017-09-17 12:43:58.694,111,2017-09-17 12:45:39.842
+09-17 12:45:40.028 440-440/research.sg.edu.edapp I/System.out: PVD: 0.368627458810806,0.0969464697565153,0.203
+09-17 12:45:40.029 440-440/research.sg.edu.edapp I/System.out: 000001,108,com.lenovo.FileBrowser,2017-09-17 12:43:58.903,114,2017-09-17 12:45:39.842
+09-17 12:45:40.029 440-440/research.sg.edu.edapp I/System.out: PVD: 0.458823561668396,0.000897585163407854,0.211
+09-17 12:45:40.052 440-440/research.sg.edu.edapp I/System.out: Number of deleted entries:108
+09-17 12:45:40.052 440-440/research.sg.edu.edapp I/System.out: [MoodRecorder]: ExtractFeaturesService is running
+09-17 12:45:40.093 440-440/research.sg.edu.edapp D/ActivityThread: SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@3f6ccd1 className=research.sg.edu.edapp.ExtractFeaturesService packageName=research.sg.edu.edapp intent=null}
+09-17 12:45:40.095 440-440/research.sg.edu.edapp D/ActivityThread: SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@3f6ccd1 className=research.sg.edu.edapp.ExtractFeaturesService packageName=research.sg.edu.edapp intent=null}
+09-17 12:45:40.095 440-440/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.ExtractFeaturesService@d231336, flags=0, startId=1
+09-17 12:45:40.095 440-440/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@3f6ccd1 startId=1 args=Intent { cmp=research.sg.edu.edapp/.ExtractFeaturesService (has extras) }}
+09-17 12:45:40.096 440-440/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onPause +
+09-17 12:45:40.097 440-440/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onPause -
+09-17 12:45:40.097 440-440/research.sg.edu.edapp D/ActivityThread: ACT-AM_ON_PAUSE_CALLED ActivityRecord{1369ab7 token=android.os.BinderProxy@7edd224 {research.sg.edu.edapp/research.sg.edu.edapp.MoodRecorder}}
+09-17 12:45:40.101 440-2521/research.sg.edu.edapp I/System.out: Tap File Name : 867802027775635_000000_Tap_Label.txt
+09-17 12:45:40.101 440-2521/research.sg.edu.edapp I/System.out: Tap File : /storage/emulated/0/AffectSense/DataFiles/Tap_Files/867802027775635_000000_Tap_Label.txt
+09-17 12:45:40.120 440-440/research.sg.edu.edapp D/ActivityThread: ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@7edd224
+09-17 12:45:40.132 440-2521/research.sg.edu.edapp I/System.out: [Reading List Again]
+09-17 12:45:40.267 440-1572/research.sg.edu.edapp D/Surface: Surface::disconnect(this=0x7fab820c00,api=1)
+09-17 12:45:40.270 440-1572/research.sg.edu.edapp D/GraphicBuffer: unregister, handle(0x7f8e822460) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+09-17 12:45:40.271 440-1572/research.sg.edu.edapp I/[MALI][Gralloc]: [-]r_hnd(0x7f8e822460), client(39), share_fd(52)
+09-17 12:45:40.272 440-1572/research.sg.edu.edapp D/GraphicBuffer: unregister, handle(0x7f8e822c80) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+09-17 12:45:40.274 440-1572/research.sg.edu.edapp I/[MALI][Gralloc]: [-]r_hnd(0x7f8e822c80), client(39), share_fd(53)
+09-17 12:45:40.274 440-1572/research.sg.edu.edapp D/GraphicBuffer: unregister, handle(0x7f8e823040) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+09-17 12:45:40.275 440-1572/research.sg.edu.edapp I/[MALI][Gralloc]: [-]r_hnd(0x7f8e823040), client(39), share_fd(55)
+09-17 12:45:40.276 440-1572/research.sg.edu.edapp D/GraphicBuffer: unregister, handle(0x7f93c49780) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+09-17 12:45:40.277 440-1572/research.sg.edu.edapp I/[MALI][Gralloc]: [-]r_hnd(0x7f93c49780), client(39), share_fd(49)
+09-17 12:45:40.277 440-1572/research.sg.edu.edapp D/Surface: Surface::disconnect(this=0x7fab820c00,api=1)
+09-17 12:45:40.280 440-1572/research.sg.edu.edapp D/OpenGLRenderer: endAllStagingAnimators on 0x7f8e832c00 (RippleDrawable @d130a7c) with handle 0x7f8e98d7c0
+09-17 12:45:40.393 440-2521/research.sg.edu.edapp W/art: Failed to open zip archive '/system/framework/prcui-config.jar': I/O Error
+09-17 12:45:40.493 440-2521/research.sg.edu.edapp D/OpenSSLLib: OpensslErr:Module:12(116:176); file:external/boringssl/src/crypto/asn1/asn1_lib.c ;Line:186;Function:ASN1_get_object
+09-17 12:45:40.683 440-2521/research.sg.edu.edapp I/System.out: Feature Entry 0:0.912857,0.550603,105,89.459999,30.476191,26.666666,com.lenovo.FileBrowser,0,0.387955,33905.878906,0.456398
+09-17 12:45:40.695 440-2521/research.sg.edu.edapp D/MPlugin: createInstance(): Begin = 8512351
+09-17 12:45:40.695 440-2521/research.sg.edu.edapp D/MPlugin: create Instance (two parameters) with : com.mediatek.common.telephony.IOnlyOwnerSimSupport
+09-17 12:45:40.695 440-2521/research.sg.edu.edapp D/MPlugin: Clazz exists on mapping table : false
+09-17 12:45:40.695 440-2521/research.sg.edu.edapp E/MPlugin: Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+09-17 12:45:40.695 440-2521/research.sg.edu.edapp D/MPlugin: createInstance(): End = 8512352
+09-17 12:45:40.702 440-2521/research.sg.edu.edapp E/SQLiteLog: (1) table EmoFeatures has no column named mPressure
+09-17 12:45:40.704 440-2521/research.sg.edu.edapp E/SQLiteDatabase: Error inserting mVelocity=33905.88 AppName=com.lenovo.FileBrowser mPressure=0.387955 SessionId=1 mSwipeDuration=0.456398 Emotion=0 SessionDur=89.46 Rmsi=0.550603 Msi=0.912857 SplCharPer=26.666666 BackSpacePer=30.47619 TimeStamp=2017-09-17 12:45:39.842 SessionLen=105
+                                                                    android.database.sqlite.SQLiteException: table EmoFeatures has no column named mPressure (code 1): , while compiling: INSERT INTO EmoFeatures(mVelocity,AppName,mPressure,SessionId,mSwipeDuration,Emotion,SessionDur,Rmsi,Msi,SplCharPer,BackSpacePer,TimeStamp,SessionLen) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+                                                                        at android.database.sqlite.SQLiteConnection.nativePrepareStatement(Native Method)
+                                                                        at android.database.sqlite.SQLiteConnection.acquirePreparedStatement(SQLiteConnection.java:896)
+                                                                        at android.database.sqlite.SQLiteConnection.prepare(SQLiteConnection.java:507)
+                                                                        at android.database.sqlite.SQLiteSession.prepare(SQLiteSession.java:588)
+                                                                        at android.database.sqlite.SQLiteProgram.<init>(SQLiteProgram.java:58)
+                                                                        at android.database.sqlite.SQLiteStatement.<init>(SQLiteStatement.java:31)
+                                                                        at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1499)
+                                                                        at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1371)
+                                                                        at research.sg.edu.edapp.FeaturesProvider.insert(FeaturesProvider.java:63)
+                                                                        at android.content.ContentProvider$Transport.insert(ContentProvider.java:276)
+                                                                        at android.content.ContentResolver.insert(ContentResolver.java:1280)
+                                                                        at research.sg.edu.edapp.ExtractFeaturesService.StoreFeatures(ExtractFeaturesService.java:1265)
+                                                                        at research.sg.edu.edapp.ExtractFeaturesService.CalculateITDs(ExtractFeaturesService.java:518)
+                                                                        at research.sg.edu.edapp.ExtractFeaturesService.onHandleIntent(ExtractFeaturesService.java:82)
+                                                                        at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:66)
+                                                                        at android.os.Handler.dispatchMessage(Handler.java:111)
+                                                                        at android.os.Looper.loop(Looper.java:207)
+                                                                        at android.os.HandlerThread.run(HandlerThread.java:61)
+
+
+                                                                    --------- beginning of crash
+09-17 12:45:40.704 440-2521/research.sg.edu.edapp E/AndroidRuntime: FATAL EXCEPTION: IntentService[ExtractFeaturesService]
+                                                                    Process: research.sg.edu.edapp, PID: 440
+                                                                    android.database.SQLException: Failed to add a record into content://research.sg.edu.edapp.FeaturesProvider/EmoFeatures
+                                                                        at research.sg.edu.edapp.FeaturesProvider.insert(FeaturesProvider.java:69)
+                                                                        at android.content.ContentProvider$Transport.insert(ContentProvider.java:276)
+                                                                        at android.content.ContentResolver.insert(ContentResolver.java:1280)
+                                                                        at research.sg.edu.edapp.ExtractFeaturesService.StoreFeatures(ExtractFeaturesService.java:1265)
+                                                                        at research.sg.edu.edapp.ExtractFeaturesService.CalculateITDs(ExtractFeaturesService.java:518)
+                                                                        at research.sg.edu.edapp.ExtractFeaturesService.onHandleIntent(ExtractFeaturesService.java:82)
+                                                                        at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:66)
+                                                                        at android.os.Handler.dispatchMessage(Handler.java:111)
+                                                                        at android.os.Looper.loop(Looper.java:207)
+                                                                        at android.os.HandlerThread.run(HandlerThread.java:61)
+09-17 12:45:40.972 440-440/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onStop +
+09-17 12:45:40.973 440-440/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onStop -
+09-17 12:45:40.973 440-440/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onDestroy +
+09-17 12:45:40.973 440-440/research.sg.edu.edapp I/Activity: [AppLaunch] activity.onDestroy -
+09-17 12:45:40.981 440-440/research.sg.edu.edapp D/WindowClient: Remove from mViews: com.android.internal.policy.PhoneWindow$DecorView{913c989 V.E...... R......D 0,0-1080,1920}, this = android.view.WindowManagerGlobal@a3e661e
+09-17 12:45:40.981 440-440/research.sg.edu.edapp D/ActivityThread: ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@7edd224
+09-17 12:45:43.375 440-440/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.MasterService@d04e52e, flags=0, startId=147
+09-17 12:45:43.409 440-440/research.sg.edu.edapp I/System.out: [MasterService]: AppLoggingService is running
+09-17 12:45:43.477 440-440/research.sg.edu.edapp I/System.out: Upload Data... Time Left : 5.5896755E11
+09-17 12:45:43.495 440-440/research.sg.edu.edapp I/System.out: [MasterService]: UploadDataService is running
+09-17 12:45:43.531 440-440/research.sg.edu.edapp D/ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@54ba9 startId=147 args=Intent { flg=0x104 cmp=research.sg.edu.edapp/.MasterService (has extras) }}
+09-17 12:45:43.531 440-440/research.sg.edu.edapp D/ActivityThread: SVC-Calling onStartCommand: research.sg.edu.edapp.AppLoggingService@8b9cdb, flags=0, startId=83
+09-17 12:45:43.532 440-440/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_component , value = disable
+09-17 12:45:43.532 440-440/research.sg.edu.edapp D/SettingsInterface:  from settings cache , name = cover_app_lock , value = 0

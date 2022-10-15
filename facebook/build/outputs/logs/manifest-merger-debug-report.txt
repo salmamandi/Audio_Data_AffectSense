@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml:22:1-25:12
+INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml:22:1-25:12
+INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml:22:1-25:12
+	package
+		ADDED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml:23:7-29
+		INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+		INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml:22:11-69
+application
+ADDED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml:24:5-19
+uses-sdk
+INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+		ADDED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+		INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+		ADDED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml
+		INJECTED from /home/salma/AndroidStudioProjects/Image_data_collection/facebook/AndroidManifest.xml

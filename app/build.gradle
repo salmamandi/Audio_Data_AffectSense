@@ -1,0 +1,78 @@
+import java.security.KeyStore
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+
+    defaultConfig {
+        applicationId "research.sg.edu.edapp"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    //compileOptions {
+        //sourceCompatibility JavaVersion.VERSION_1_8
+        //targetCompatibility JavaVersion.VERSION_1_8
+    //}
+
+
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    implementation files('libs/wekaSTRIPPED.jar')
+    implementation files('mpandroidchartlibrary-2-2-4.jar')
+    //compile 'com.android.support:design:22.2.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.facebook.android:facebook-android-sdk:5.1.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'in.gauriinfotech:commons:1.0.8'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.annotation:annotation:1.2.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1'
+    //implementation 'com.github.MdFarhanRaja:SearchableSpinner:2.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    implementation files('libs/dropbox-android-sdk-1.5.3.jar')
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'androidx.core:core:1.6.0'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.dropbox.core:dropbox-core-sdk:4.0.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.github.Hemant27031999:Expressive_Toasts:0.0.2'
+
+
+}

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Affect Sense 2.1</string>
+
+    <string name="FACEBOOK_APP_ID">376956205999839</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">52c6de7e2567c2c218b90b6b0d77e3c6</string>
+
+    <!-- Developers Details -->
+    <string name="developer_password">102345</string>
+    <string name="contentContactUs">For any suggestions, feedback, questions, bug report -</string>
+    <string name="developer_email">hiwarekaustubh@gmail.com</string>
+    <string name="developer_facebookid">fb.me/kaustubhhiware</string>
+    <string name="developer_contactno">+91-8768829567</string>
+
+    <!-- Time Format -->
+    <string name="time_format">yyyy-MM-dd HH:mm:ss.SSS</string>
+
+    <!-- Server Details -->
+    <!-- TODO: Check where to update app from -->
+    <string name="server_uri">http://www.cnergres.iitkgp.ac.in/projects/tapsense/</string>
+    <string name="affectsense_server_uri">http://www.cnergres.iitkgp.ac.in/projects/tapsense/AffectSense/</string>
+    <string name="upload_data_page">UploadToServer.php</string>
+    <string name="update_app_page">affectsense.apk</string>
+    <string name="version_file">version.txt</string>
+
+    <!-- ESM Constraints -->
+    <!-- Minimum Characters in a Session -->
+    <string name="esm_min_txt_length">80</string>
+    <!-- Minimum Time Diference Between Two ESM Logger (in minutes) -->
+    <string name="esm_app_min_window">2</string>
+
+    <!-- Interval Details  -->
+    <!-- mood_interval(in seconds) specifies how frequently polling will happen -->
+    <!-- common_interval(in seconds) specifies how frequently alarmreceiver will run -->
+    <string name="common_interval">5</string>
+    <string name="mood_interval">5</string>
+    <!-- Intervals specified in hours -->
+    <string name="prediction_interval">1</string>
+    <string name="build_model_interval">12</string>
+    <string name="upload_data_interval">6</string>
+    <string name="confirm_popup_interval">12</string>
+    <string name="confirm_popup_later_interval">1</string>
+    <!-- Intervals specified in minutes-->
+    <string name="app_logging_interval">10</string>
+
+    <!-- No. of taps in a session -->
+    <string name="smallSessionThreshold">40</string>
+    <!-- No. of hours to expires feature record-->
+    <string name="recordTimeOut">3</string>
+    <!-- Gap Threshold between two Taps in seconds -->
+    <string name="longTap_threshold">5</string>
+
+    <!-- No. of Train Data to Build Model -->
+    <string name="trainData_threshold">10</string>
+
+
+    <!-- Used to track mininum no. of features instances in train phase -->
+    <string name="trainphase_threshold_ctr">TrainPhaseThreshold</string>
+    <string name="default_trainphase_threshold">35</string>
+
+    <string name="no_of_features">6</string>
+
+    <!-- Used to Save KLD Vector of Training Phase -->
+    <string name="kld_vector_file">KLDMatrixFile</string>
+    <string name="kld_vector">KLDMatrix</string>
+
+    <!-- For SharedPreference (Running Status, ESMPeriodicCount) -->
+    <string name="mood_sharedpref_file">MoodSharedPref</string>
+    <string name="sharedpref_running_status">RunningStatus</string>
+    <string name="sharedpref_registration_flag">RegistrationFlag</string>
+    <string name="moodrecorder_pkg">research.sg.edu.edapp</string>
+
+    <string name="sharedpref_training_phase">TrainingPhase</string>
+    <string name="last_update_version">LastUpdateVersion</string>
+
+    <!-- Timestamps for all services -->
+    <string name="sharedpref_pkg">research.sg.edu.edapp</string>
+    <string name="sharedpref_file">EDAppSharedPref</string>
+    <string name="mood_log_timestamp">MoodLogTimeStamp</string>
+    <string name="app_log_timestamp">AppLogTimeStamp</string>
+    <string name="build_model_timestamp">BuildModelTimeStamp</string>
+    <string name="prediction_timestamp">PredictionTimeStamp</string>
+    <string name="upload_data_timestamp">UploadDataTimeStamp</string>
+    <string name="confirm_popup_timestamp">ConfirmPopUpTimeStamp</string>
+
+    <string name="img_capture">Align your face towards front camera while recording emotion.</string>
+    <string name="btn_picture">.</string>
+    <!-- For SharedPreference used by the Applogging service -->
+    <string name="applogger_pkg">research.sg.edu.edapp</string>
+    <string name="applogger_sharedpref_file">AppLoggerSharedPref</string>
+    <string name="sharedpref_last_logged_app_name">LastFgAppName</string>
+
+    <!-- For SharedPreference used by different counters -->
+    <string name="ctr_pkg">research.sg.edu.edapp</string>
+    <string name="ctr_sharedpref_file">CtrSharedPref</string>
+    <string name="tap_ctr">TapCtr</string>
+    <string name="tap_ctr_test">TapCtrTest</string>
+    <string name="feature_file_ctr">FeatureFileCtr</string>
+    <string name="ground_truth_feature_file_ctr">GroundTruthFeatureFileCtr</string>
+    <string name="predict_file_ctr">PredictFileCtr</string>
+    <string name="model_file_ctr">ModelFileCtr</string>
+    <string name="archive_feature_file_ctr">ArchiveFeatureFileCtr</string>
+    <string name="alarm_file_ctr">AlarmFileCtr</string>
+    <string name="sessionId_ctr">SessionIdCtr</string>
+
+    <!-- To Save Last Mood -->
+    <string name="last_mood">LastMood</string>
+
+    <!-- For SharedPreferences used by different counters for features -->
+    <string name="mood_count_sharedpref_file">MoodCountSharedPref</string>
+    <string name="train_features_count">TrainFeaturesCount</string>
+    <string name="happy_features_count">HappyFeaturesCount</string>
+    <string name="sad_features_count">SadFeaturesCount</string>
+    <string name="stressed_features_count">StressedFeaturesCount</string>
+    <string name="relaxed_features_count">RelaxedFeaturesCount</string>
+    <string name="happy_test_features_count">HappyTestFeaturesCount</string>
+    <string name="sad_test_features_count">SadTestFeaturesCount</string>
+    <string name="stressed_test_features_count">StressedTestFeaturesCount</string>
+    <string name="relaxed_test_features_count">RelaxedTestFeaturesCount</string>
+
+    <!-- For SharedPreference to track typing session -->
+    <string name="typing_session_sharedpref_file">TypSessionSharedPref</string>
+    <string name="typing_session_no">TypingSessionNo</string>
+    <string name="typing_session_no_test">TypingSessionNoTest</string>
+    <string name="typing_session_pkg">research.sg.edu.edapp</string>
+
+    <!-- File size threshold in KB -->
+    <string name="feature_file_size_limit">2</string>
+    <string name="alarm_file_size_limit">10</string>
+
+    <!-- For SharedPreference -->
+    <string name="sharedpref_mood_rdy_to_record">MoodToBeRecorded</string>
+    <string name="keyboard_pkg">research.sg.edu.edapp</string>
+
+    <!-- For SharedPreference to Save User Details -->
+    <string name="user_details_file">UserDetailsSharedPref</string>
+    <string name="user_name">UserName</string>
+    <string name="user_email_id">UserEmailId</string>
+
+    <!-- File Path Details -->
+    <string name="affectsense_file_path">/AffectSense/</string>
+    <string name="data_file_path">/AffectSense/</string>
+    <string name="to_be_uploaded_file_path">/AffectSense/DataFiles/ToBeUploaded/</string>
+    <string name="oldAlarm_file_path">/AffectSense/DataFiles/Old_Alarm_Timings/</string>
+    <string name="archive_file_path">/AffectSense/DataFiles/Archive/</string>
+    <string name="log_file_path">Log/</string>
+    <string name="features_file_path">/AffectSense/DataFiles/Features/</string>
+    <string name="ground_truth_features_file_path">/AffectSense/DataFiles/GroundTruth/</string>
+    <string name="archive_features_file_path">/AffectSense/DataFiles/Features/Archive/</string>
+    <string name="test_features_file_path">/AffectSense/DataFiles/Features/Test_Features/</string>
+    <string name="prediction_file_path">/AffectSense/DataFiles/Predictions/</string>
+    <string name="model_file_path">/AffectSense/DataFiles/Model</string>
+    <string name="tap_file_path">/AffectSense/DataFiles/Tap_Files/</string>
+    <string name="test_tap_file_path">/AffectSense/DataFiles/Tap_Files/Test_Tap/</string>
+
+    <!-- File Postfixes -->
+    <string name="zip_file_postfix">_datafiles.txt</string>
+    <string name="registration_file_postfix">_Registration_Details.txt</string>
+    <string name="features_file_postfix">_Features_Label.txt</string>
+    <string name="predictions_file_postfix">_Prediction_Label.txt</string>
+    <string name="tap_file_postfix">_Tap_Label.txt</string>
+    <string name="model_file_postfix">rf.model</string>
+    <string name="error_log_file_name">error.log</string>
+    <string name="buildModel_log_file_name">buildModel.log</string>
+    <string name="trainPhase_log_file_name">trainPhase.log</string>
+    <string name="prediction_log_file_name">prediction.log</string>
+    <string name="testcount_log_file_name">testcount.log</string>
+    <string name="retraining_log_file_name">retraining.log</string>
+    <string name="KLD_log_file_name">KLD.log</string>
+    <string name="model_file_name">/rf.model</string>
+
+    <!-- Charts Description -->
+    <string name="charts_description">In Overview section, Pie Chart shows the Emotion distribution in the given dates.\n\nIn Detailed section, Each Bar of Bar Chart shows Emotion distribution in a session of a day.
+        Here, sessions are like-\n
+        \t1. Morning (3 A.M. - 11 A.M.)\n\t2. Afternoon (11 A.M. - 4 P.M.)\n\t3. Evening (4 P.M. - 9 P.M.)\n\t4. Night (9 P.M. - 3 A.M.)\n
+        \nIn App-Wise section, Each Bar of Bar Chart shows Emotion Distribution while using a particular type of application.\n
+        \nIn App-Usage section, Pie Chart shows the distribution of type of application used by you.
+    </string>
+
+    <!-- User Consent Details -->
+    <string name="user_thank_you">Hello! Thank you for using AffectSense.</string>
+    <string name="user_consent_kb_mood">As you use AffectSense, You have to record emotional state.</string>
+    <string name="user_consent_do_capture"> For exploration purpose, we request you to record your speech next you record your emotion.</string>
+    <string name="user_consent_dont_capture">We will NOT capture any text, personal sensitive information, passwords etc.</string>
+    <string name="usr_ok">OK</string>
+    <string name="blank_line"></string>
+
+    <!-- Mood Details -->
+    <string name="radio_mood1">Sad or Depressed</string>
+    <string name="radio_mood2">Happy or Excited</string>
+    <string name="radio_mood3">Stressed</string>
+    <string name="radio_mood4">Relaxed</string>
+    <string name="radio_mood5">No Response</string>
+    <string name="mood_str">How are you feeling now?</string>
+    <string name="btn_record">Record Emotion</string>
+
+    <!-- Strings related to Soft keyboard -->
+    <!-- Title for Latin keyboard -->
+    <string name="ime_name">AffectSense Keyboard 2.1</string>
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_GB">AffectSense Keyboard</string>
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">AffectSense Keyboard Settings</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <string name="general_category">General</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_mood_recorder">Mood Recorder</string>
+    <string name="title_activity_perform_registration">Registration</string>
+    <string name="title_activity_user_consent">UserConsent</string>
+    <string name="title_activity_stats_menu">Stats Menu</string>
+    <string name="title_activity_stats_type">Stats Type</string>
+    <string name="title_activity_validate_predictions">Validate Predictions</string>
+    <string name="title_activity_mood_confirmation">Mood Confirmation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu Items String-->
+    <string name="onDeveloper">On Developer Mode</string>
+    <string name="offDeveloper">Off Developer Mode</string>
+    <string name="contactus">Contact Us</string>
+    <string name="action_check_updates">Check for Updates</string>
+    <string name="action_upload_data">Upload Data To Server</string>
+    <string name="action_set_trainthreshold">Change Train Threshold</string>
+    <string name="action_build_model">Build Model</string>
+    <string name="action_fill_data">Fill Data</string>
+    <string name="action_test_data">Test Data</string>
+    <string name="action_clear_counts">Clear Counts</string>
+    <string name="action_fill_features">Fill Features</string>
+    <string name="action_see_features">See Features</string>
+    <string name="action_empty_features">Clean Features</string>
+
+    <!-- Button Names -->
+    <!-- Main Activity Buttons -->
+    <string name="StartApp">Press</string>
+    <string name="StopApp">Stop Application</string>
+    <string name="DispStat">View Feedback</string>
+    <string name="ValidatePredictions">Photo Review</string>
+    <!-- User Registration Activity Buttons -->
+    <string name="Register">Register</string>
+    <string name="Cancel">Cancel</string>
+    <string name="test_here">Test here</string>
+    <string name="sharedpref_status">0</string>
+    <string name="channel_name">Firing reminder</string>
+    <string name="channel_description">Make sound and pop on screen</string>
+    <string name="country">select country</string>
+    <string name="zip">File compression</string>
+    <string name="mail">Upload data</string>
+    <string name="Affectsense_path">/AffectSense/</string>
+    <string name="Instruction">Read Me</string>
+
+    <string name="Instr_Heading">How to send data?</string>
+    <string name="FirstStep">Step1:Click on Read me.So, you already have completed step 1.Great!</string>
+    <string name="SecondStep">Step2: Click on option \"File compressing\",which is the second option after Read Me.</string>
+    <string name="ThirdStep">Step3:Click on option \"Mailing Data\",which is the third option.</string>
+    <string name="conclude">After step 3 you will get several options.Click on Gmail app sign and mail is ready to be sent.
+    Now, just press arrow or Send button, that is located at top right corner and you are done.</string>
+    <string name="Note">NOTE: Make sure that your mobile is connected to internet before sending the data.</string>
+    <string name="title_activity_capture_previous">Capture_previous</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="APP_KEY">sry3wdsr8kzwz6r</string>
+    <string name="APP_SECRET">v2md1ws0rujiytb</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login_dropbox">LoginDropboxActivity</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="camera">Camera</string>
+    <string name="folder">Folder</string>
+    <string name="done">Delete</string>
+
+    <!---strings used for audio recording-->
+    <string name="audio_recorder">Read the Text</string>
+    <string name="start_recording">Start Reading</string>
+    <string name="start_speaking">Start Speaking</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="status">Status</string>
+    <string name="texttoread">read</string>
+
+</resources>
